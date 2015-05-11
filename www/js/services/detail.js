@@ -59,7 +59,7 @@ angular.module('service.detail', [])
 
       series: [{
         type: 'area',
-        name: 'USD to EUR',
+        name: '',
         pointInterval: 24 * 3600 * 1000,
         pointStart: Date.UTC(2014, 0, 1),
         data: data
@@ -130,7 +130,7 @@ angular.module('service.detail', [])
 
       series: [{
         type: 'area',
-        name: 'USD to EUR',
+        name: '',
         pointInterval: 24 * 3600 * 1000,
         pointStart: Date.UTC(2014, 0, 1),
         data: data
@@ -204,7 +204,7 @@ angular.module('service.detail', [])
 
       series: [{
         type: 'area',
-        name: 'USD to EUR',
+        name: '',
         pointInterval: 24 * 3600 * 1000,
         pointStart: Date.UTC(2014, 0, 1),
         data: data
