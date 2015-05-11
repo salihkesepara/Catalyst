@@ -1,4 +1,4 @@
-angular.module('module.login', ['services.loading', 'request.getUserUsage', 'request.getUserUsageAll'])
+angular.module('module.login', [])
 
 .config(function ($stateProvider, $urlRouterProvider) {
   $stateProvider

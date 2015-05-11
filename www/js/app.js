@@ -1,12 +1,4 @@
-angular.module('app', [
-  'ionic',
-  'module.overview',
-  'module.details',
-  'module.settings',
-  'module.login',
-  'module.tabs',
-  'resource.db',
-])
+angular.module('app', ['service.injects'])
 
 .run(function ($ionicPlatform, db) {
   $ionicPlatform.ready(function () {

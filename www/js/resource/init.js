@@ -1,5 +1,5 @@
 /** @module db_init */
-angular.module('resource.init', ['resource.config'])
+angular.module('resource.init', [])
 
 .factory('init', function ($q, database, migration) {
   var self = this;

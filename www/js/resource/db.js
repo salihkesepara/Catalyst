@@ -1,5 +1,5 @@
 /** @module db_resource */
-angular.module('resource.db', ['resource.init'])
+angular.module('resource.db', [])
 
 .factory('db', function (init) {
   var self = this;

@@ -1,4 +1,4 @@
-angular.module('request.getUserUsage', ['remote.config', 'remote.http'])
+angular.module('request.getUserUsage', [])
 
 .factory('getUserUsage', ['config', 'http', 'db', '$q', function (config, http, db, $q) {
   var self = this;
