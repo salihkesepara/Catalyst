@@ -38,9 +38,9 @@ angular.module('service.overview', [])
         name: 'Browser share',
         innerSize: '50%',
         data: [
-              ['600 MB Int', parseInt(userUsage.dataUsage)],
-              ['400 SMS', parseInt(userUsage.smsUsage)],
-              ['300 DK Arama', parseInt(userUsage.voiceUsage)],
+              [parseInt(userUsage.dataUsage) * 1000 / 100 + ' MB Int', parseInt(userUsage.dataUsage)],
+              [parseInt(userUsage.smsUsage * 2000 / 100) + ' SMS', parseInt(userUsage.smsUsage)],
+              [parseInt(userUsage.voiceUsage) * 10 + ' DK Arama', parseInt(userUsage.voiceUsage)],
             ]
         }]
     }
