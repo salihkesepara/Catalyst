@@ -53,7 +53,7 @@ angular.module('module.login', [])
 
     function userUsageAllOK(result) {
       console.log(result);
-      $rootScope.isUsageAllOk = result;
+      $rootScope.userUsageAll = result.periodUsage;
       isUsageAllOk = true;
       if (isUsageOk) {
         goHome();
