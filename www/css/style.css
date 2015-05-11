@@ -3,7 +3,7 @@
   margin: 10px 0 40px 0;
 }
 
-.ion-ios-pulse-strong:before, .ion-ios-chatboxes-outline:before, .ion-ios-cog-outline:before {
+.ion-ios-pulse:before, .ion-ios-pulse-strong:before, .ion-ios-chatboxes-outline:before, .ion-ios-chatboxes:before, .ion-ios-cog-outline:before, .ion-ios-cog:before{
     margin-top: 8px;
     font-size: 25px;
 }
