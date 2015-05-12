@@ -9,7 +9,7 @@ angular.module('service.detail', [])
     
     var chart = {
       chart: {
-        
+        height: 250
       },
       title: {
         text: 'Internet'
@@ -25,7 +25,9 @@ angular.module('service.detail', [])
       yAxis: {
         title: {
           text: ''
-        }
+        },
+        max: 2,
+        min: 0
       },
       legend: {
         enabled: false
@@ -80,7 +82,7 @@ angular.module('service.detail', [])
     
     var chart = {
       chart: {
-        
+        height: 250
       },
       title: {
         text: 'SMS'
@@ -96,7 +98,9 @@ angular.module('service.detail', [])
       yAxis: {
         title: {
           text: ''
-        }
+        },
+        max: 2,
+        min: 0
       },
       legend: {
         enabled: false
@@ -140,12 +144,6 @@ angular.module('service.detail', [])
     return chart;
   }
   
-  
-  
-  
-  
-  
-  
   function arama(userUsageAll) {
     var data = [];
     userUsageAll.forEach(function(item) {
@@ -154,7 +152,7 @@ angular.module('service.detail', [])
     
     var chart = {
       chart: {
-        
+        height: 250
       },
       title: {
         text: 'Arama'
@@ -170,7 +168,9 @@ angular.module('service.detail', [])
       yAxis: {
         title: {
           text: ''
-        }
+        },
+        max: 2,
+        min: 0
       },
       legend: {
         enabled: false
