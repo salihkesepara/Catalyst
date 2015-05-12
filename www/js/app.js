@@ -1,17 +1,25 @@
 angular.module('app', ['service.injects','ngCordova'])
 
-.run(function ($ionicPlatform, db,$ionicViewService,$ionicHistory,$state) {
+.run(function ($ionicPlatform, db,$ionicViewService,$ionicHistory,$state,$cordovaDialogs) {
       $ionicPlatform.registerBackButtonAction(function () {
-
+          $ionicViewService.nextViewOptions({
+              disableBack: true
+          });
 
         if($ionicHistory.currentStateName()==="login"){
             navigator.app.exitApp();
         }
+          $cordovaDialogs.confirm('Çıkmak istediğinizden eminmisiniz?', 'Çıkış', ['Evet','Hayır'])
+              .then(function(buttonIndex) {
 
-          $ionicViewService.nextViewOptions({
-              disableBack: true
-          });
-          $state.go('login');
+                  var btnIndex = buttonIndex;
+                  if(btnIndex===1){
+
+                      $state.go('login');
+                  }
+              });
+
+
 
       }, 100);
   $ionicPlatform.ready(function () {
