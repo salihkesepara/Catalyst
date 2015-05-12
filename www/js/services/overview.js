@@ -35,7 +35,7 @@ angular.module('service.overview', [])
       },
       series: [{
         type: 'pie',
-        name: 'Browser share',
+        name: '',
         innerSize: '50%',
         data: [
               [parseInt(userUsage.dataUsage) * 1000 / 100 + ' MB Int', parseInt(userUsage.dataUsage)],
