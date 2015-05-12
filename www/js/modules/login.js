@@ -10,6 +10,9 @@ angular.module('module.login', [])
 })
 
 .controller('LoginCtrl', ['$scope', 'loading', '$state', 'getUserUsage', 'getUserUsageAll', '$rootScope', 'db', function ($scope, loading, $state, getUserUsage, getUserUsageAll, $rootScope, db) {
+  $scope.login = {
+    id: 934785452
+  }
   $scope.goHome = function () {
     loading.start();
 

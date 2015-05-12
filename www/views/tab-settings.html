@@ -29,18 +29,21 @@
       <ion-item class="item range range-positive">
         <span>{{data.mb}} MB</span>
         <input type="range" name="mb" ng-model="data.mb" min="0" max="1000">
+        <span>1000 MB</span>
       </ion-item>
       
       <ion-item class="item item-divider">SMS Kullanımını belirle</ion-item>
       <ion-item class="item range range-positive">
         <span>{{data.sms}} Adet</span>
         <input type="range" name="sms" ng-model="data.sms" min="0" max="2000">
+        <span>2000 Adet</span>
       </ion-item>
       
       <ion-item class="item item-divider">Arama kullanımını belirle</ion-item>
       <ion-item class="item range range-positive">
         <span>{{data.dk}} DK</span>
         <input type="range" name="dk" ng-model="data.dk" min="0" max="500">
+        <span>500 DK</span>
       </ion-item>
     </ion-list>
     
