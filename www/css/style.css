@@ -8,8 +8,12 @@
 }
 
 #container {
-  margin-top: -40px !important;
+  margin-top: -80px !important;
   margin-left: 10px !important;
+  min-width: 310px;
+  height: 400px;
+  max-width: 600px;
+  margin: 0 auto
 }
 
 .overview-list {
