@@ -7,3 +7,16 @@
     margin-top: 8px;
     font-size: 25px;
 }
+
+#container {
+  margin-top: -40px !important;
+  margin-left: 10px !important;
+}
+
+.overview-list {
+  margin-top: -40px !important;
+}
+
+.highcharts-button {
+  display: none;
+}
