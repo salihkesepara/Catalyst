@@ -15,7 +15,11 @@ angular.module('module.details', [])
 
 .controller('DetailsCtrl', function ($scope, $rootScope, detail) {
   var userUsageAll = $rootScope.userUsageAll;
-  $('#containerInternet').highcharts(detail.internet(userUsageAll));
+
+
+      $('#containerInternet').highcharts(detail.internet(userUsageAll));
   $('#containerSms').highcharts(detail.sms(userUsageAll));
   $('#containerArama').highcharts(detail.arama(userUsageAll));
+
+
 })

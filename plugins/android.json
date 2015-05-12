@@ -13,6 +13,10 @@
                             "count": 1
                         },
                         {
+                            "xml": "<feature name=\"Whitelist\"><param name=\"android-package\" value=\"org.apache.cordova.whitelist.WhitelistPlugin\" /><param name=\"onload\" value=\"true\" /></feature>",
+                            "count": 1
+                        },
+                        {
                             "xml": "<feature name=\"Device\"><param name=\"android-package\" value=\"org.apache.cordova.device.Device\" /></feature>",
                             "count": 1
                         }
@@ -23,13 +27,16 @@
     },
     "installed_plugins": {
         "com.ionic.keyboard": {
-            "PACKAGE_NAME": "com.ionicframework.catalyst245967"
+            "PACKAGE_NAME": "com.ionicframework.catalyst"
+        },
+        "cordova-plugin-whitelist": {
+            "PACKAGE_NAME": "com.ionicframework.catalyst"
         },
         "org.apache.cordova.console": {
-            "PACKAGE_NAME": "com.ionicframework.catalyst245967"
+            "PACKAGE_NAME": "com.ionicframework.catalyst"
         },
         "org.apache.cordova.device": {
-            "PACKAGE_NAME": "com.ionicframework.catalyst245967"
+            "PACKAGE_NAME": "com.ionicframework.catalyst"
         }
     },
     "dependent_plugins": {}

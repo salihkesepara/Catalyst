@@ -23,4 +23,6 @@ angular.module('app', ['service.injects'])
     $ionicConfigProvider.scrolling.jsScrolling(false);
   }
   $urlRouterProvider.otherwise("/login");
-})
+}).config(['$httpProvider', function($httpProvider) {
+     // $httpProvider.defaults.timeout = 5000;
+    }]);
