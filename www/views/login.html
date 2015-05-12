@@ -1,12 +1,12 @@
 <ion-view view-title="Login" hide-nav-bar="true">
-  <ion-content style="padding: 80px 10px 10px 10px">
-    <div class="logo"><img src="img/logo.png"></div>
+  <ion-content class="login-view">
+    <div class="logo"><img src="img/e.png"></div>
     <ion-list>
-      <ion-item class="item-input">
+      <ion-item class="item-input login-input">
         <span class="input-label">Abone ID:</span>
         <input type="text" placeholder="Abone ID" ng-model="login.id">
       </ion-item>
     </ion-list>
-    <button class="button button-block button-outline button-positive" on-touch="goHome()">Giriş</button>
+    <button class="button button-block button-outline button-positive login-button" on-touch="goHome()">Giriş</button>
   </ion-content>
 </ion-view>

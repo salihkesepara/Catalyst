@@ -1,29 +1,8 @@
 <ion-view view-title="Ayarlar">
+  <ion-nav-buttons side="left">
+    <span><img src="img/e.png" class="header-logo"></span>
+  </ion-nav-buttons>
   <ion-content>
-<!--
-    <h4>Internet kullanımını belirle</h4>
-    <div class="item range">
-      aaaaa
-      <input type="range" name="volume">
-      1 GB Limit
-    </div>
-    
-    <h4>SMS Kullanımını belirle</h4>
-    <div class="item range">
-      <i class="icon ion-volume-low"></i>
-      <input type="range" name="volume">
-      <i class="icon ion-volume-high"></i>
-    </div>
-    
-    <h4>Arama kullanımını belirle</h4>
-    <div class="item range">
-      <i class="icon ion-volume-low"></i>
-      <input type="range" name="volume">
-      <i class="icon ion-volume-high"></i>
-    </div>
--->
-    
-    
     <ion-list>
       <ion-item class="item item-divider">Internet kullanımını belirle</ion-item>
       <ion-item class="item range range-positive">
@@ -31,14 +10,14 @@
         <input type="range" name="mb" ng-model="data.mb" min="0" max="1000">
         <span>1000 MB</span>
       </ion-item>
-      
+
       <ion-item class="item item-divider">SMS Kullanımını belirle</ion-item>
       <ion-item class="item range range-positive">
         <span>{{data.sms}} Adet</span>
         <input type="range" name="sms" ng-model="data.sms" min="0" max="2000">
         <span>2000 Adet</span>
       </ion-item>
-      
+
       <ion-item class="item item-divider">Arama kullanımını belirle</ion-item>
       <ion-item class="item range range-positive">
         <span>{{data.dk}} DK</span>
@@ -46,6 +25,6 @@
         <span>500 DK</span>
       </ion-item>
     </ion-list>
-    
+
   </ion-content>
 </ion-view>

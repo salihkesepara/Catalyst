@@ -1,11 +1,10 @@
 .logo {
   text-align: center;
-  margin: 10px 0 40px 0;
+  margin: 10px 10px 40px 10px;
 }
 
-.ion-ios-pulse:before, .ion-ios-pulse-strong:before, .ion-ios-chatboxes-outline:before, .ion-ios-chatboxes:before, .ion-ios-cog-outline:before, .ion-ios-cog:before{
-    margin-top: 8px;
-    font-size: 25px;
+.logo .img {
+  width: 100%;
 }
 
 #container {
@@ -19,4 +18,32 @@
 
 .highcharts-button {
   display: none;
+}
+
+.login-view {
+  padding: 140px 10px 10px 10px;
+  background-color: #48637E;
+}
+
+.login-button {
+  background-color: #EC6708 !important;
+  color: white !important;
+  border-color: #EC6708 !important;
+}
+
+.login-input {
+  height: 40px;
+}
+
+.header-logo {
+  margin: 1px;
+  width: 34px;
+}
+
+.tabs-striped .tabs {
+  background-color: #387ef5 !important;
+}
+
+.ion-tabs.tabs-color-active-positive .tab-item {
+  color: #dedede !important;
 }

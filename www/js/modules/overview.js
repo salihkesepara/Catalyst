@@ -14,7 +14,11 @@ angular.module('module.overview', [])
 })
 
 
-.controller('OverviewCtrl', function ($scope, $rootScope, overview) {
+.controller('OverviewCtrl', function ($scope, $rootScope, overview, $state) {
   var userUsage = $rootScope.userUsage;
   $('#container').highcharts(overview.data(userUsage));
+  
+  $scope.goLogin = function() {
+    $state.go('login');
+  }
 })
