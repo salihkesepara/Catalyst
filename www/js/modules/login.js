@@ -20,6 +20,7 @@ angular.module('module.login', [])
       isUsageAllOk = false;
 
     getUserUsage.run().then(function (result) {
+
       userUsageOK(result);
     }, function (err) {
       console.log(err);
