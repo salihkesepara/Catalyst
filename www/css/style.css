@@ -7,13 +7,26 @@
   width: 100%;
 }
 
-#container {
-  margin-top: -80px !important;
-  margin-left: 10px !important;
-  min-width: 310px;
-  height: 400px;
-  max-width: 600px;
-  margin: 0 auto
+@media (max-width: 400px) {
+  #container {
+    margin-top: -80px !important;
+    margin-left: 10px !important;
+    min-width: 310px;
+    height: 400px;
+    width: 100%;
+    margin: 0 auto
+  }
+}
+
+@media (min-width: 400px) {
+  #container {
+    margin-top: -80px !important;
+    margin-left: 10px !important;
+    min-width: 310px;
+    height: 100%;
+    width: 100%;
+    margin: 0 auto
+  }
 }
 
 .overview-list {
