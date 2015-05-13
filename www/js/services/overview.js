@@ -9,16 +9,16 @@ angular.module('service.overview', [])
         plotBorderWidth: 0,
         plotShadow: false,
         height: $(window).width() > 500 ? 600 : 350,
-        marginTop: $(window).width() > 500 ? -300 : -200
+        marginTop: $(window).width() > 500 ? -100 : -200
       },
       colors: ['#f3742a', '#387ef5', '#8bbc21'],
       title: {
         text: '%' + parseInt(userUsage.dataUsage) + '<br>İnternet',
         align: 'center',
         verticalAlign: 'middle',
-        y: $(window).width() > 500 ? 0 : -10,
+        y: $(window).width() > 500 ? -20 : -10,
         style: {
-          "fontSize": $(window).width() > 500 ? "22px" : "16px",
+          "fontSize": $(window).width() > 500 ? "22px" : "16px"
         }
       },
       tooltip: {
