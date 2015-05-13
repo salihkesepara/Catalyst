@@ -6,8 +6,9 @@ angular.module('service.overview', [])
       chart: {
         plotBackgroundColor: null,
         plotBorderWidth: 0,
-        plotShadow: false
+        plotShadow: false,
       },
+      colors: ['#f3742a', '#387ef5', '#8bbc21'],
       title: {
         text: '',
         align: 'center',
