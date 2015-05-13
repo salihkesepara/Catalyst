@@ -2,6 +2,7 @@ angular.module('service.overview', [])
 
 .factory('overview', [function () {
   function data(userUsage) {
+    console.log($(window).width());
     return {
       chart: {
         plotBackgroundColor: null,
