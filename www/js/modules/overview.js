@@ -16,6 +16,7 @@ angular.module('module.overview', [])
 
 .controller('OverviewCtrl', function ($scope, $rootScope, overview, $state) {
   var userUsage = $rootScope.userUsage;
+  $scope.data = $(window).width();
   $('#container').highcharts(overview.data(userUsage));
 
   $scope.goLogin = function() {
