@@ -16,7 +16,8 @@ angular.module('service.overview', [])
         y: 50
       },
       tooltip: {
-        pointFormat: '{series.name}: <b>{point.percentage:.1f}%</b>'
+//        pointFormat: '{series.name}: <b>{point.percentage:.1f}%</b>'
+        enabled: false
       },
       plotOptions: {
         pie: {
@@ -39,9 +40,9 @@ angular.module('service.overview', [])
         name: '',
         innerSize: '50%',
         data: [
-              [parseInt(userUsage.dataUsage) * 1000 / 100 + ' MB Int', parseInt(userUsage.dataUsage)],
-              [parseInt(userUsage.smsUsage * 2000 / 100) + ' SMS', parseInt(userUsage.smsUsage)],
-              [parseInt(userUsage.voiceUsage) * 10 + ' DK Arama', parseInt(userUsage.voiceUsage)],
+              ['%' + parseInt(userUsage.dataUsage), parseInt(userUsage.dataUsage)],
+              ['%' + parseInt(userUsage.smsUsage), parseInt(userUsage.smsUsage)],
+              ['%' + parseInt(userUsage.voiceUsage), parseInt(userUsage.voiceUsage)],
             ]
         }]
     }

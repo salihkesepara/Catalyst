@@ -64,7 +64,8 @@ angular.module('service.detail', [])
         name: '',
         pointInterval: 24 * 3600 * 1000,
         pointStart: Date.UTC(2014, 0, 1),
-        data: data
+        data: data,
+        enableMouseTracking: false
         }]
     }
     
@@ -137,7 +138,8 @@ angular.module('service.detail', [])
         name: '',
         pointInterval: 24 * 3600 * 1000,
         pointStart: Date.UTC(2014, 0, 1),
-        data: data
+        data: data,
+        enableMouseTracking: false
         }]
     }
     
@@ -207,7 +209,8 @@ angular.module('service.detail', [])
         name: '',
         pointInterval: 24 * 3600 * 1000,
         pointStart: Date.UTC(2014, 0, 1),
-        data: data
+        data: data,
+        enableMouseTracking: false
         }]
     }
     
