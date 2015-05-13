@@ -15,6 +15,7 @@ angular.module('service.overview', [])
       title: {
         text: '%' + parseInt(userUsage.dataUsage) + '<br>İnternet',
         align: 'center',
+
         verticalAlign: 'middle',
         y: $(window).width() > 500 ? -20 : -10,
         style: {
