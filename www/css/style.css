@@ -10,7 +10,6 @@
 @media (max-width: 400px) {
   #container {
     margin-top: -80px !important;
-    margin-left: 10px !important;
     min-width: 310px;
     height: 400px;
     width: 100%;
@@ -21,7 +20,6 @@
 @media (min-width: 400px) {
   #container {
     margin-top: -40px !important;
-    margin-left: 10px !important;
     min-width: 310px;
     height: 500px;
     width: 100%;

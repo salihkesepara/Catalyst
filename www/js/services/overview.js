@@ -6,24 +6,23 @@ angular.module('service.overview', [])
       chart: {
         plotBackgroundColor: null,
         plotBorderWidth: 0,
-        plotShadow: false,
+        plotShadow: false
       },
       colors: ['#f3742a', '#387ef5', '#8bbc21'],
       title: {
-        text: '',
+        text: '%' + parseInt(userUsage.dataUsage) + '<br>İnternet',
         align: 'center',
         verticalAlign: 'middle',
-        y: 50
+        y: 50,
       },
       tooltip: {
-//        pointFormat: '{series.name}: <b>{point.percentage:.1f}%</b>'
         enabled: false
       },
       plotOptions: {
         pie: {
           dataLabels: {
             enabled: true,
-            distance: -80,
+            distance: -50,
             style: {
               fontWeight: 'bold',
               color: 'white',
@@ -32,7 +31,7 @@ angular.module('service.overview', [])
           },
           startAngle: -90,
           endAngle: 90,
-          center: ['47%', '75%']
+          center: ['50%', '75%']
         }
       },
       series: [{
@@ -44,7 +43,7 @@ angular.module('service.overview', [])
               ['%' + parseInt(userUsage.smsUsage), parseInt(userUsage.smsUsage)],
               ['%' + parseInt(userUsage.voiceUsage), parseInt(userUsage.voiceUsage)],
             ]
-        }]
+      }]
     }
   }
 
