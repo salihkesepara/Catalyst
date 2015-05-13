@@ -2,681 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bd2f5501-f9d2-4152-a040-583fb17c4604" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/CordovaLib/build/intermediates/classes/debug/org/apache/cordova/AuthenticationToken.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/CordovaLib/build/intermediates/classes/debug/org/apache/cordova/BuildConfig.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/build/intermediates/classes/debug/com/ionicframework/catalyst/BuildConfig.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/CordovaLib/build/intermediates/classes/debug/org/apache/cordova/CallbackContext.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/CordovaLib/build/intermediates/classes/debug/org/apache/cordova/Config.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/CordovaLib/build/intermediates/classes/debug/org/apache/cordova/ConfigXmlParser.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/CordovaLib/build/intermediates/classes/debug/org/apache/cordova/CordovaActivity$1.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/CordovaLib/build/intermediates/classes/debug/org/apache/cordova/CordovaActivity$2.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/CordovaLib/build/intermediates/classes/debug/org/apache/cordova/CordovaActivity$3.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/CordovaLib/build/intermediates/classes/debug/org/apache/cordova/CordovaActivity$4$1.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/CordovaLib/build/intermediates/classes/debug/org/apache/cordova/CordovaActivity$4.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/CordovaLib/build/intermediates/classes/debug/org/apache/cordova/CordovaActivity.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/CordovaLib/build/intermediates/classes/debug/org/apache/cordova/CordovaArgs.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/CordovaLib/build/intermediates/classes/debug/org/apache/cordova/CordovaBridge.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/CordovaLib/build/intermediates/classes/debug/org/apache/cordova/CordovaClientCertRequest.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/CordovaLib/build/intermediates/classes/debug/org/apache/cordova/CordovaDialogsHelper$1.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/CordovaLib/build/intermediates/classes/debug/org/apache/cordova/CordovaDialogsHelper$2.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/CordovaLib/build/intermediates/classes/debug/org/apache/cordova/CordovaDialogsHelper$3.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/CordovaLib/build/intermediates/classes/debug/org/apache/cordova/CordovaDialogsHelper$4.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/CordovaLib/build/intermediates/classes/debug/org/apache/cordova/CordovaDialogsHelper$5.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/CordovaLib/build/intermediates/classes/debug/org/apache/cordova/CordovaDialogsHelper$6.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/CordovaLib/build/intermediates/classes/debug/org/apache/cordova/CordovaDialogsHelper$7.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/CordovaLib/build/intermediates/classes/debug/org/apache/cordova/CordovaDialogsHelper$8.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/CordovaLib/build/intermediates/classes/debug/org/apache/cordova/CordovaDialogsHelper$9.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/CordovaLib/build/intermediates/classes/debug/org/apache/cordova/CordovaDialogsHelper$Result.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/CordovaLib/build/intermediates/classes/debug/org/apache/cordova/CordovaDialogsHelper.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/CordovaLib/build/intermediates/classes/debug/org/apache/cordova/CordovaHttpAuthHandler.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/CordovaLib/build/intermediates/classes/debug/org/apache/cordova/CordovaInterface.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/CordovaLib/build/intermediates/classes/debug/org/apache/cordova/CordovaInterfaceImpl$ActivityResultHolder.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/CordovaLib/build/intermediates/classes/debug/org/apache/cordova/CordovaInterfaceImpl.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/CordovaLib/build/outputs/aar/CordovaLib-debug.aar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/CordovaLib/build/intermediates/classes/debug/org/apache/cordova/CordovaPlugin.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/CordovaLib/build/intermediates/classes/debug/org/apache/cordova/CordovaPreferences.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/CordovaLib/build/intermediates/classes/debug/org/apache/cordova/CordovaResourceApi$OpenForReadResult.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/CordovaLib/build/intermediates/classes/debug/org/apache/cordova/CordovaResourceApi.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/CordovaLib/build/intermediates/classes/debug/org/apache/cordova/CordovaWebView.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/CordovaLib/build/intermediates/classes/debug/org/apache/cordova/CordovaWebViewEngine$Client.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/CordovaLib/build/intermediates/classes/debug/org/apache/cordova/CordovaWebViewEngine$EngineView.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/CordovaLib/build/intermediates/classes/debug/org/apache/cordova/CordovaWebViewEngine.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/CordovaLib/build/intermediates/classes/debug/org/apache/cordova/CordovaWebViewImpl$1.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/CordovaLib/build/intermediates/classes/debug/org/apache/cordova/CordovaWebViewImpl$2.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/CordovaLib/build/intermediates/classes/debug/org/apache/cordova/CordovaWebViewImpl$3.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/CordovaLib/build/intermediates/classes/debug/org/apache/cordova/CordovaWebViewImpl$EngineClient$1$1.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/CordovaLib/build/intermediates/classes/debug/org/apache/cordova/CordovaWebViewImpl$EngineClient$1.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/CordovaLib/build/intermediates/classes/debug/org/apache/cordova/CordovaWebViewImpl$EngineClient.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/CordovaLib/build/intermediates/classes/debug/org/apache/cordova/CordovaWebViewImpl.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/CordovaLib/build/intermediates/classes/debug/org/apache/cordova/CoreAndroid$1.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/CordovaLib/build/intermediates/classes/debug/org/apache/cordova/CoreAndroid$2.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/CordovaLib/build/intermediates/classes/debug/org/apache/cordova/CoreAndroid$3.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/CordovaLib/build/intermediates/classes/debug/org/apache/cordova/CoreAndroid$4.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/CordovaLib/build/intermediates/classes/debug/org/apache/cordova/CoreAndroid$5.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/CordovaLib/build/intermediates/classes/debug/org/apache/cordova/CoreAndroid.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/build/intermediates/classes/debug/org/apache/cordova/device/Device.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/CordovaLib/build/intermediates/classes/debug/org/apache/cordova/ExposedJsApi.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/CordovaLib/build/intermediates/classes/debug/org/apache/cordova/ICordovaClientCertRequest.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/CordovaLib/build/intermediates/classes/debug/org/apache/cordova/ICordovaCookieManager.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/CordovaLib/build/intermediates/classes/debug/org/apache/cordova/ICordovaHttpAuthHandler.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/build/intermediates/classes/debug/com/ionic/keyboard/IonicKeyboard$1.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/build/intermediates/classes/debug/com/ionic/keyboard/IonicKeyboard$2.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/build/intermediates/classes/debug/com/ionic/keyboard/IonicKeyboard$3.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/build/intermediates/classes/debug/com/ionic/keyboard/IonicKeyboard.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/CordovaLib/build/intermediates/classes/debug/org/apache/cordova/LOG.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/build/intermediates/classes/debug/com/ionicframework/catalyst/MainActivity.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/CordovaLib/build/intermediates/classes/debug/org/apache/cordova/NativeToJsMessageQueue$BridgeMode.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/CordovaLib/build/intermediates/classes/debug/org/apache/cordova/NativeToJsMessageQueue$JsMessage.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/CordovaLib/build/intermediates/classes/debug/org/apache/cordova/NativeToJsMessageQueue$LoadUrlBridgeMode$1.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/CordovaLib/build/intermediates/classes/debug/org/apache/cordova/NativeToJsMessageQueue$LoadUrlBridgeMode.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/CordovaLib/build/intermediates/classes/debug/org/apache/cordova/NativeToJsMessageQueue$NoOpBridgeMode.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/CordovaLib/build/intermediates/classes/debug/org/apache/cordova/NativeToJsMessageQueue$OnlineEventsBridgeMode$1.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/CordovaLib/build/intermediates/classes/debug/org/apache/cordova/NativeToJsMessageQueue$OnlineEventsBridgeMode$2.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/CordovaLib/build/intermediates/classes/debug/org/apache/cordova/NativeToJsMessageQueue$OnlineEventsBridgeMode$OnlineEventsBridgeModeDelegate.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/CordovaLib/build/intermediates/classes/debug/org/apache/cordova/NativeToJsMessageQueue$OnlineEventsBridgeMode.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/CordovaLib/build/intermediates/classes/debug/org/apache/cordova/NativeToJsMessageQueue.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/build/intermediates/classes/debug/org/apache/cordova/dialogs/Notification$1.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/build/intermediates/classes/debug/org/apache/cordova/dialogs/Notification$2$1.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/build/intermediates/classes/debug/org/apache/cordova/dialogs/Notification$2$2.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/build/intermediates/classes/debug/org/apache/cordova/dialogs/Notification$2.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/build/intermediates/classes/debug/org/apache/cordova/dialogs/Notification$3$1.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/build/intermediates/classes/debug/org/apache/cordova/dialogs/Notification$3$2.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/build/intermediates/classes/debug/org/apache/cordova/dialogs/Notification$3$3.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/build/intermediates/classes/debug/org/apache/cordova/dialogs/Notification$3$4.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/build/intermediates/classes/debug/org/apache/cordova/dialogs/Notification$3.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/build/intermediates/classes/debug/org/apache/cordova/dialogs/Notification$4$1.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/build/intermediates/classes/debug/org/apache/cordova/dialogs/Notification$4$2.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/build/intermediates/classes/debug/org/apache/cordova/dialogs/Notification$4$3.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/build/intermediates/classes/debug/org/apache/cordova/dialogs/Notification$4$4.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/build/intermediates/classes/debug/org/apache/cordova/dialogs/Notification$4.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/build/intermediates/classes/debug/org/apache/cordova/dialogs/Notification$5$1.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/build/intermediates/classes/debug/org/apache/cordova/dialogs/Notification$5.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/build/intermediates/classes/debug/org/apache/cordova/dialogs/Notification$6$1.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/build/intermediates/classes/debug/org/apache/cordova/dialogs/Notification$6.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/build/intermediates/classes/debug/org/apache/cordova/dialogs/Notification.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/CordovaLib/build/intermediates/classes/debug/org/apache/cordova/PluginEntry.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/CordovaLib/build/intermediates/classes/debug/org/apache/cordova/PluginManager.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/CordovaLib/build/intermediates/classes/debug/org/apache/cordova/PluginResult$Status.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/CordovaLib/build/intermediates/classes/debug/org/apache/cordova/PluginResult.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/build/intermediates/classes/debug/com/ionicframework/catalyst/R$attr.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/build/intermediates/classes/debug/com/ionicframework/catalyst/R$drawable.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/build/intermediates/classes/debug/com/ionicframework/catalyst/R$string.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/build/intermediates/classes/debug/com/ionicframework/catalyst/R$xml.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/build/intermediates/classes/debug/com/ionicframework/catalyst/R.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/CordovaLib/build/intermediates/classes/debug/org/apache/cordova/engine/SystemCookieManager.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/CordovaLib/build/intermediates/classes/debug/org/apache/cordova/engine/SystemExposedJsApi.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/CordovaLib/build/intermediates/classes/debug/org/apache/cordova/engine/SystemWebChromeClient$1.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/CordovaLib/build/intermediates/classes/debug/org/apache/cordova/engine/SystemWebChromeClient$2.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/CordovaLib/build/intermediates/classes/debug/org/apache/cordova/engine/SystemWebChromeClient$3.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/CordovaLib/build/intermediates/classes/debug/org/apache/cordova/engine/SystemWebChromeClient$4.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/CordovaLib/build/intermediates/classes/debug/org/apache/cordova/engine/SystemWebChromeClient$5.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/CordovaLib/build/intermediates/classes/debug/org/apache/cordova/engine/SystemWebChromeClient.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/CordovaLib/build/intermediates/classes/debug/org/apache/cordova/engine/SystemWebView.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/CordovaLib/build/intermediates/classes/debug/org/apache/cordova/engine/SystemWebViewClient.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/CordovaLib/build/intermediates/classes/debug/org/apache/cordova/engine/SystemWebViewEngine$1.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/CordovaLib/build/intermediates/classes/debug/org/apache/cordova/engine/SystemWebViewEngine$2.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/CordovaLib/build/intermediates/classes/debug/org/apache/cordova/engine/SystemWebViewEngine.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/CordovaLib/build/intermediates/classes/debug/org/apache/cordova/Whitelist$URLPattern.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/CordovaLib/build/intermediates/classes/debug/org/apache/cordova/Whitelist.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/build/intermediates/classes/debug/org/apache/cordova/whitelist/WhitelistPlugin$1.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/build/intermediates/classes/debug/org/apache/cordova/whitelist/WhitelistPlugin$CustomConfigXmlParser.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/build/intermediates/classes/debug/org/apache/cordova/whitelist/WhitelistPlugin.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/build/outputs/apk/android-debug-unaligned.apk" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/build/outputs/apk/android-debug.apk" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/assets/www/lib/angular/angular.min.js.gzip" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/build/intermediates/assets/debug/www/lib/angular/angular.min.js.gzip" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/org.apache.cordova.dialogs/src/ios/CDVNotification.bundle/beep.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/.gradle/2.2.1/taskArtifacts/cache.properties.lock" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/build/intermediates/pre-dexed/debug/classes-998d27d3620a0539d0dbec651c0ac927b8154158.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/build/intermediates/dex/debug/classes.dex" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/CordovaLib/build/intermediates/bundles/debug/classes.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/build/intermediates/exploded-aar/android/CordovaLib/unspecified/debug/classes.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/org.apache.cordova.dialogs/www/firefoxos/danger-press.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/org.apache.cordova.dialogs/www/firefoxos/danger.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/org.apache.cordova.dialogs/www/firefoxos/default.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/CordovaLib/build/intermediates/incremental/aidl/debug/dependency.store" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/build/intermediates/incremental/aidl/debug/dependency.store" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/assets/www/img/e.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/build/intermediates/assets/debug/www/img/e.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/.gradle/2.2.1/taskArtifacts/fileHashes.bin" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/.gradle/2.2.1/taskArtifacts/fileSnapshots.bin" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/org.apache.cordova.dialogs/www/firefoxos/gradient.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/gradle/wrapper/gradle-wrapper.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/build/intermediates/res/debug/drawable/icon.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/build/intermediates/res/debug/drawable-hdpi-v4/icon.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/build/intermediates/res/debug/drawable-ldpi-v4/icon.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/build/intermediates/res/debug/drawable-mdpi-v4/icon.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/build/intermediates/res/debug/drawable-xhdpi-v4/icon.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/build/intermediates/res/debug/drawable-xxhdpi-v4/icon.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/build/intermediates/res/debug/drawable-xxxhdpi-v4/icon.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/res/drawable/icon.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/res/drawable-hdpi/icon.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/res/drawable-ldpi/icon.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/res/drawable-mdpi/icon.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/res/drawable-xhdpi/icon.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/res/drawable-xxhdpi/icon.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/res/drawable-xxxhdpi/icon.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/assets/www/img/ionic.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/build/intermediates/assets/debug/www/img/ionic.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/assets/www/lib/ionic/fonts/ionicons.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/build/intermediates/assets/debug/www/lib/ionic/fonts/ionicons.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/assets/www/lib/ionic/fonts/ionicons.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/build/intermediates/assets/debug/www/lib/ionic/fonts/ionicons.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/assets/www/lib/ionic/fonts/ionicons.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/build/intermediates/assets/debug/www/lib/ionic/fonts/ionicons.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/assets/www/img/logo.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/build/intermediates/assets/debug/www/img/logo.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/org.apache.cordova.dialogs/src/wp/notification-beep.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/org.apache.cordova.dialogs/www/blackberry10/notification-beep.wav" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/.gradle/2.2.1/taskArtifacts/outputFileStates.bin" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/org.apache.cordova.dialogs/www/firefoxos/pattern.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/org.apache.cordova.dialogs/www/firefoxos/recommend.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/build/intermediates/res/resources-debug.ap_" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/build/intermediates/res/debug/drawable-land-hdpi-v4/screen.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/build/intermediates/res/debug/drawable-land-ldpi-v4/screen.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/build/intermediates/res/debug/drawable-land-mdpi-v4/screen.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/build/intermediates/res/debug/drawable-land-xhdpi-v4/screen.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/build/intermediates/res/debug/drawable-land-xxhdpi-v4/screen.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/build/intermediates/res/debug/drawable-land-xxxhdpi-v4/screen.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/build/intermediates/res/debug/drawable-port-hdpi-v4/screen.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/build/intermediates/res/debug/drawable-port-ldpi-v4/screen.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/build/intermediates/res/debug/drawable-port-mdpi-v4/screen.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/build/intermediates/res/debug/drawable-port-xhdpi-v4/screen.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/build/intermediates/res/debug/drawable-port-xxhdpi-v4/screen.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/build/intermediates/res/debug/drawable-port-xxxhdpi-v4/screen.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/res/drawable-land-hdpi/screen.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/res/drawable-land-ldpi/screen.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/res/drawable-land-mdpi/screen.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/res/drawable-land-xhdpi/screen.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/res/drawable-land-xxhdpi/screen.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/res/drawable-land-xxxhdpi/screen.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/res/drawable-port-hdpi/screen.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/res/drawable-port-ldpi/screen.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/res/drawable-port-mdpi/screen.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/res/drawable-port-xhdpi/screen.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/res/drawable-port-xxhdpi/screen.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/res/drawable-port-xxxhdpi/screen.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/.gradle/2.2.1/taskArtifacts/taskArtifacts.bin" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/assets/www/lib/angular/.bower.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/assets/www/lib/angular-animate/.bower.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/assets/www/lib/angular-sanitize/.bower.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/assets/www/lib/angular-ui-router/.bower.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/assets/www/lib/ionic/.bower.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/assets/www/lib/ngCordova/.bower.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/cordova/node_modules/shelljs/.documentup.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/.gitignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/cordova/node_modules/shelljs/.jshintrc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/cordova/node_modules/shelljs/.npmignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/.project" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/CordovaLib/.project" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/cordova/node_modules/shelljs/.travis.yml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/AndroidManifest.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/CordovaLib/AndroidManifest.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/CordovaLib/build/intermediates/bundles/debug/AndroidManifest.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/build/intermediates/exploded-aar/android/CordovaLib/unspecified/debug/AndroidManifest.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/build/intermediates/manifests/full/debug/AndroidManifest.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/CordovaLib/src/org/apache/cordova/AuthenticationToken.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/CordovaLib/build/generated/source/buildConfig/debug/org/apache/cordova/BuildConfig.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/build/generated/source/buildConfig/debug/com/ionicframework/catalyst/BuildConfig.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/org.apache.cordova.dialogs/src/ios/CDVNotification.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/org.apache.cordova.dialogs/src/ios/CDVNotification.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/assets/www/lib/angular-ui-router/CHANGELOG.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/assets/www/lib/ngCordova/CHANGELOG.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/build/intermediates/assets/debug/www/lib/angular-ui-router/CHANGELOG.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/build/intermediates/assets/debug/www/lib/ngCordova/CHANGELOG.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/assets/www/lib/angular-ui-router/CONTRIBUTING.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/build/intermediates/assets/debug/www/lib/angular-ui-router/CONTRIBUTING.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/cordova/node_modules/q/CONTRIBUTING.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/org.apache.cordova.dialogs/CONTRIBUTING.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/CordovaLib/src/org/apache/cordova/CallbackContext.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/CordovaLib/src/org/apache/cordova/Config.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/CordovaLib/src/org/apache/cordova/ConfigXmlParser.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/CordovaLib/src/org/apache/cordova/CordovaActivity.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/CordovaLib/src/org/apache/cordova/CordovaArgs.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/CordovaLib/src/org/apache/cordova/CordovaBridge.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/CordovaLib/src/org/apache/cordova/CordovaClientCertRequest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/CordovaLib/src/org/apache/cordova/CordovaDialogsHelper.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/CordovaLib/src/org/apache/cordova/CordovaHttpAuthHandler.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/CordovaLib/src/org/apache/cordova/CordovaInterface.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/CordovaLib/src/org/apache/cordova/CordovaInterfaceImpl.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/CordovaLib/src/org/apache/cordova/CordovaPlugin.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/CordovaLib/src/org/apache/cordova/CordovaPreferences.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/CordovaLib/src/org/apache/cordova/CordovaResourceApi.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/CordovaLib/src/org/apache/cordova/CordovaWebView.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/CordovaLib/src/org/apache/cordova/CordovaWebViewEngine.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/CordovaLib/src/org/apache/cordova/CordovaWebViewImpl.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/CordovaLib/src/org/apache/cordova/CoreAndroid.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/src/org/apache/cordova/device/Device.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/CordovaLib/src/org/apache/cordova/ExposedJsApi.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/CordovaLib/src/org/apache/cordova/ICordovaClientCertRequest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/CordovaLib/src/org/apache/cordova/ICordovaCookieManager.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/CordovaLib/src/org/apache/cordova/ICordovaHttpAuthHandler.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/src/com/ionic/keyboard/IonicKeyboard.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/assets/www/lib/angular-ui-router/LICENSE" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/assets/www/lib/ngCordova/LICENSE" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/build/intermediates/assets/debug/www/lib/angular-ui-router/LICENSE" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/build/intermediates/assets/debug/www/lib/ngCordova/LICENSE" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/cordova/node_modules/nopt/LICENSE" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/cordova/node_modules/nopt/node_modules/abbrev/LICENSE" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/cordova/node_modules/q/LICENSE" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/cordova/node_modules/shelljs/LICENSE" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/cordova/node_modules/which/LICENSE" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/org.apache.cordova.dialogs/LICENSE" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/CordovaLib/src/org/apache/cordova/LOG.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/CordovaLib/build/tmp/packageDebugJar/MANIFEST.MF" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/src/com/ionicframework/catalyst/MainActivity.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/org.apache.cordova.dialogs/NOTICE" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/CordovaLib/src/org/apache/cordova/NativeToJsMessageQueue.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/org.apache.cordova.dialogs/src/wp/Notification.cs" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/src/org/apache/cordova/dialogs/Notification.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/org.apache.cordova.dialogs/src/android/Notification.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/org.apache.cordova.dialogs/src/wp/NotificationBox.xaml.cs" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/org.apache.cordova.dialogs/src/wp/NotificationBox.xaml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/org.apache.cordova.dialogs/src/windows/NotificationProxy.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/CordovaLib/src/org/apache/cordova/PluginEntry.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/CordovaLib/src/org/apache/cordova/PluginManager.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/CordovaLib/src/org/apache/cordova/PluginResult.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/build/generated/source/r/debug/com/ionicframework/catalyst/R.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/build/intermediates/symbols/debug/R.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/assets/www/lib/angular/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/assets/www/lib/angular-animate/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/assets/www/lib/angular-sanitize/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/assets/www/lib/angular-ui-router/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/assets/www/lib/ionic/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/assets/www/lib/ngCordova/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/build/intermediates/assets/debug/www/lib/angular/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/build/intermediates/assets/debug/www/lib/angular-animate/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/build/intermediates/assets/debug/www/lib/angular-sanitize/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/build/intermediates/assets/debug/www/lib/angular-ui-router/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/build/intermediates/assets/debug/www/lib/ionic/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/build/intermediates/assets/debug/www/lib/ngCordova/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/cordova/node_modules/q/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/cordova/node_modules/shelljs/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/cordova/node_modules/which/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/org.apache.cordova.dialogs/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/org.apache.cordova.dialogs/RELEASENOTES.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/CordovaLib/src/org/apache/cordova/engine/SystemCookieManager.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/CordovaLib/src/org/apache/cordova/engine/SystemExposedJsApi.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/CordovaLib/src/org/apache/cordova/engine/SystemWebChromeClient.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/CordovaLib/src/org/apache/cordova/engine/SystemWebView.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/CordovaLib/src/org/apache/cordova/engine/SystemWebViewClient.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/CordovaLib/src/org/apache/cordova/engine/SystemWebViewEngine.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/CordovaLib/src/org/apache/cordova/Whitelist.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/src/org/apache/cordova/whitelist/WhitelistPlugin.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/assets/www/lib/ionic/scss/_action-sheet.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/build/intermediates/assets/debug/www/lib/ionic/scss/_action-sheet.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/assets/www/lib/ionic/scss/_animations.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/build/intermediates/assets/debug/www/lib/ionic/scss/_animations.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/assets/www/lib/ionic/scss/_backdrop.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/build/intermediates/assets/debug/www/lib/ionic/scss/_backdrop.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/assets/www/lib/ionic/scss/_badge.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/build/intermediates/assets/debug/www/lib/ionic/scss/_badge.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/assets/www/lib/ionic/scss/_bar.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/build/intermediates/assets/debug/www/lib/ionic/scss/_bar.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/assets/www/lib/ionic/scss/_button-bar.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/build/intermediates/assets/debug/www/lib/ionic/scss/_button-bar.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/assets/www/lib/ionic/scss/_button.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/build/intermediates/assets/debug/www/lib/ionic/scss/_button.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/assets/www/lib/ionic/scss/_checkbox.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/build/intermediates/assets/debug/www/lib/ionic/scss/_checkbox.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/assets/www/lib/ionic/scss/_form.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/build/intermediates/assets/debug/www/lib/ionic/scss/_form.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/assets/www/lib/ionic/scss/_grid.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/build/intermediates/assets/debug/www/lib/ionic/scss/_grid.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/assets/www/lib/ionic/scss/ionicons/_ionicons-animation.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/build/intermediates/assets/debug/www/lib/ionic/scss/ionicons/_ionicons-animation.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/assets/www/lib/ionic/scss/ionicons/_ionicons-font.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/build/intermediates/assets/debug/www/lib/ionic/scss/ionicons/_ionicons-font.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/assets/www/lib/ionic/scss/ionicons/_ionicons-icons.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/build/intermediates/assets/debug/www/lib/ionic/scss/ionicons/_ionicons-icons.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/assets/www/lib/ionic/scss/ionicons/_ionicons-variables.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/build/intermediates/assets/debug/www/lib/ionic/scss/ionicons/_ionicons-variables.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/assets/www/lib/ionic/scss/_items.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/build/intermediates/assets/debug/www/lib/ionic/scss/_items.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/assets/www/lib/ionic/scss/_list.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/build/intermediates/assets/debug/www/lib/ionic/scss/_list.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/assets/www/lib/ionic/scss/_loaders.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/build/intermediates/assets/debug/www/lib/ionic/scss/_loaders.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/assets/www/lib/ionic/scss/_loading.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/build/intermediates/assets/debug/www/lib/ionic/scss/_loading.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/assets/www/lib/ionic/scss/_menu.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/build/intermediates/assets/debug/www/lib/ionic/scss/_menu.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/assets/www/lib/ionic/scss/_mixins.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/build/intermediates/assets/debug/www/lib/ionic/scss/_mixins.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/assets/www/lib/ionic/scss/_modal.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/build/intermediates/assets/debug/www/lib/ionic/scss/_modal.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/assets/www/lib/ionic/scss/_platform.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/build/intermediates/assets/debug/www/lib/ionic/scss/_platform.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/assets/www/lib/ionic/scss/_popover.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/build/intermediates/assets/debug/www/lib/ionic/scss/_popover.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/assets/www/lib/ionic/scss/_popup.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/build/intermediates/assets/debug/www/lib/ionic/scss/_popup.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/assets/www/lib/ionic/scss/_progress.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/build/intermediates/assets/debug/www/lib/ionic/scss/_progress.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/assets/www/lib/ionic/scss/_radio.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/build/intermediates/assets/debug/www/lib/ionic/scss/_radio.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/assets/www/lib/ionic/scss/_range.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/build/intermediates/assets/debug/www/lib/ionic/scss/_range.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/assets/www/lib/ionic/scss/_refresher.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/build/intermediates/assets/debug/www/lib/ionic/scss/_refresher.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/assets/www/lib/ionic/scss/_reset.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/build/intermediates/assets/debug/www/lib/ionic/scss/_reset.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/assets/www/lib/ionic/scss/_scaffolding.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/build/intermediates/assets/debug/www/lib/ionic/scss/_scaffolding.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/assets/www/lib/ionic/scss/_select.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/build/intermediates/assets/debug/www/lib/ionic/scss/_select.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/assets/www/lib/ionic/scss/_slide-box.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/build/intermediates/assets/debug/www/lib/ionic/scss/_slide-box.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/assets/www/lib/ionic/scss/_spinner.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/build/intermediates/assets/debug/www/lib/ionic/scss/_spinner.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/assets/www/lib/ionic/scss/_split-pane.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/build/intermediates/assets/debug/www/lib/ionic/scss/_split-pane.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/assets/www/lib/ionic/scss/_tabs.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/build/intermediates/assets/debug/www/lib/ionic/scss/_tabs.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/assets/www/lib/ionic/scss/_toggle.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/build/intermediates/assets/debug/www/lib/ionic/scss/_toggle.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/assets/www/lib/ionic/scss/_transitions.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/build/intermediates/assets/debug/www/lib/ionic/scss/_transitions.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/assets/www/lib/ionic/scss/_type.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/build/intermediates/assets/debug/www/lib/ionic/scss/_type.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/assets/www/lib/ionic/scss/_util.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/build/intermediates/assets/debug/www/lib/ionic/scss/_util.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/assets/www/lib/ionic/scss/_variables.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/build/intermediates/assets/debug/www/lib/ionic/scss/_variables.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/assets/_where-is-www.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/build/intermediates/assets/debug/_where-is-www.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/cordova/node_modules/nopt/node_modules/abbrev/abbrev.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/cordova/lib/android_sdk_version.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/cordova/android_sdk_version" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/assets/www/lib/angular-animate/angular-animate.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/build/intermediates/assets/debug/www/lib/angular-animate/angular-animate.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/assets/www/lib/angular-animate/angular-animate.min.js.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/build/intermediates/assets/debug/www/lib/angular-animate/angular-animate.min.js.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/assets/www/lib/angular-animate/angular-animate.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/build/intermediates/assets/debug/www/lib/angular-animate/angular-animate.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/assets/www/lib/angular/angular-csp.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/build/intermediates/assets/debug/www/lib/angular/angular-csp.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/assets/www/lib/angular-sanitize/angular-sanitize.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/build/intermediates/assets/debug/www/lib/angular-sanitize/angular-sanitize.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/assets/www/lib/angular-sanitize/angular-sanitize.min.js.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/build/intermediates/assets/debug/www/lib/angular-sanitize/angular-sanitize.min.js.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/assets/www/lib/angular-sanitize/angular-sanitize.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/build/intermediates/assets/debug/www/lib/angular-sanitize/angular-sanitize.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/assets/www/lib/angular-ui-router/api/angular-ui-router.d.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/build/intermediates/assets/debug/www/lib/angular-ui-router/api/angular-ui-router.d.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/assets/www/lib/angular-ui-router/release/angular-ui-router.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/build/intermediates/assets/debug/www/lib/angular-ui-router/release/angular-ui-router.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/assets/www/lib/angular-ui-router/release/angular-ui-router.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/build/intermediates/assets/debug/www/lib/angular-ui-router/release/angular-ui-router.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/assets/www/lib/angular/angular.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/build/intermediates/assets/debug/www/lib/angular/angular.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/assets/www/lib/angular/angular.min.js.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/build/intermediates/assets/debug/www/lib/angular/angular.min.js.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/assets/www/lib/angular/angular.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/build/intermediates/assets/debug/www/lib/angular/angular.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/assets/www/js/app.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/build/intermediates/assets/debug/www/js/app.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/cordova/lib/appinfo.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/org.apache.cordova.dialogs/www/blackberry10/beep.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/assets/www/lib/angular/bower.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/assets/www/lib/angular-animate/bower.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/assets/www/lib/angular-sanitize/bower.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/assets/www/lib/angular-ui-router/bower.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/assets/www/lib/ionic/bower.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/assets/www/lib/ngCordova/bower.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/build/intermediates/assets/debug/www/lib/angular/bower.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/build/intermediates/assets/debug/www/lib/angular-animate/bower.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/build/intermediates/assets/debug/www/lib/angular-sanitize/bower.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/build/intermediates/assets/debug/www/lib/angular-ui-router/bower.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/build/intermediates/assets/debug/www/lib/ionic/bower.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/build/intermediates/assets/debug/www/lib/ngCordova/bower.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/cordova/build.bat" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/build.gradle" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/CordovaLib/build.gradle" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/cordova/lib/build.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/cordova/build" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/.gradle/2.2.1/taskArtifacts/cache.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/build/intermediates/dex-cache/cache.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/cordova/node_modules/shelljs/src/cat.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/cordova/node_modules/shelljs/src/cd.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/cordova/lib/check_reqs.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/cordova/check_reqs" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/cordova/node_modules/shelljs/src/chmod.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/cordova/clean.bat" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/cordova/clean" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/assets/www/lib/angular-ui-router/src/common.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/build/intermediates/assets/debug/www/lib/angular-ui-router/src/common.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/cordova/node_modules/shelljs/src/common.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/cordova/node_modules/q/benchmark/compare-with-callbacks.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/assets/www/js/remote/config.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/assets/www/js/resource/config.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/build/intermediates/assets/debug/www/js/remote/config.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/build/intermediates/assets/debug/www/js/resource/config.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/build/intermediates/res/debug/xml/config.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/res/xml/config.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/CordovaLib/cordova.gradle" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/assets/www/cordova.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/build/intermediates/assets/debug/www/cordova.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/platform_www/cordova.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/assets/www/cordova_plugins.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/build/intermediates/assets/debug/www/cordova_plugins.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/cordova/node_modules/shelljs/src/cp.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/assets/www/js/resource/db.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/build/intermediates/assets/debug/www/js/resource/db.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/cordova/defaults.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/assets/www/js/services/detail.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/build/intermediates/assets/debug/www/js/services/detail.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/assets/www/js/modules/details.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/build/intermediates/assets/debug/www/js/modules/details.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/assets/www/plugins/org.apache.cordova.device/www/device.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/build/intermediates/assets/debug/www/plugins/org.apache.cordova.device/www/device.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/cordova/lib/device.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/cordova/node_modules/shelljs/src/dirs.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/cordova/node_modules/shelljs/src/echo.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/cordova/lib/emulator.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/cordova/node_modules/shelljs/src/error.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/cordova/lib/exec.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/cordova/node_modules/shelljs/src/exec.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/assets/www/lib/exporting.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/build/intermediates/assets/debug/www/lib/exporting.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/cordova/node_modules/shelljs/src/find.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/cordova/node_modules/shelljs/scripts/generate-docs.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/assets/www/js/remote/request/getUserUsage.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/build/intermediates/assets/debug/www/js/remote/request/getUserUsage.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/assets/www/js/remote/request/getUserUsageAll.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/build/intermediates/assets/debug/www/js/remote/request/getUserUsageAll.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/cordova/node_modules/shelljs/global.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/gradle/wrapper/gradle-wrapper.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/gradlew.bat" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/cordova/node_modules/shelljs/src/grep.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/assets/www/lib/highcharts.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/build/intermediates/assets/debug/www/lib/highcharts.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/assets/www/js/remote/http.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/build/intermediates/assets/debug/www/js/remote/http.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/assets/www/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/build/intermediates/assets/debug/www/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/org.apache.cordova.dialogs/src/blackberry10/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/org.apache.cordova.dialogs/doc/index.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/org.apache.cordova.dialogs/doc/de/index.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/org.apache.cordova.dialogs/doc/es/index.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/org.apache.cordova.dialogs/doc/fr/index.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/org.apache.cordova.dialogs/doc/it/index.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/org.apache.cordova.dialogs/doc/ja/index.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/org.apache.cordova.dialogs/doc/ko/index.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/org.apache.cordova.dialogs/doc/pl/index.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/org.apache.cordova.dialogs/doc/ru/index.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/org.apache.cordova.dialogs/doc/zh/index.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/assets/www/js/resource/init.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/build/intermediates/assets/debug/www/js/resource/init.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/assets/www/js/services/injects.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/build/intermediates/assets/debug/www/js/services/injects.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/build/intermediates/tmp/dex/debug/inputList.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/cordova/lib/install-device.bat" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/cordova/lib/install-device" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/cordova/lib/install-emulator.bat" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/cordova/lib/install-emulator" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/assets/www/lib/ionic/js/ionic-angular.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/build/intermediates/assets/debug/www/lib/ionic/js/ionic-angular.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/assets/www/lib/ionic/js/ionic-angular.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/build/intermediates/assets/debug/www/lib/ionic/js/ionic-angular.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/assets/www/lib/ionic/js/ionic.bundle.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/build/intermediates/assets/debug/www/lib/ionic/js/ionic.bundle.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/assets/www/lib/ionic/js/ionic.bundle.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/build/intermediates/assets/debug/www/lib/ionic/js/ionic.bundle.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/assets/www/lib/ionic/css/ionic.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/build/intermediates/assets/debug/www/lib/ionic/css/ionic.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/assets/www/lib/ionic/js/ionic.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/build/intermediates/assets/debug/www/lib/ionic/js/ionic.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/assets/www/lib/ionic/css/ionic.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/build/intermediates/assets/debug/www/lib/ionic/css/ionic.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/assets/www/lib/ionic/js/ionic.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/build/intermediates/assets/debug/www/lib/ionic/js/ionic.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/assets/www/lib/ionic/scss/ionic.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/build/intermediates/assets/debug/www/lib/ionic/scss/ionic.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/assets/www/lib/ionic/scss/ionicons/ionicons.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/build/intermediates/assets/debug/www/lib/ionic/scss/ionicons/ionicons.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/assets/www/lib/ionic/fonts/ionicons.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/build/intermediates/assets/debug/www/lib/ionic/fonts/ionicons.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/assets/www/lib/jquery-1.7.1.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/build/intermediates/assets/debug/www/lib/jquery-1.7.1.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/assets/www/plugins/com.ionic.keyboard/www/keyboard.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/build/intermediates/assets/debug/www/plugins/com.ionic.keyboard/www/keyboard.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/cordova/lib/list-devices.bat" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/cordova/lib/list-devices" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/cordova/lib/list-emulator-images.bat" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/cordova/lib/list-emulator-images" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/cordova/lib/list-started-emulators.bat" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/cordova/lib/list-started-emulators" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/assets/www/js/services/loading.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/build/intermediates/assets/debug/www/js/services/loading.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/cordova/log.bat" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/cordova/lib/log.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/cordova/log" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/assets/www/views/login.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/build/intermediates/assets/debug/www/views/login.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/assets/www/js/modules/login.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/build/intermediates/assets/debug/www/js/modules/login.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/cordova/node_modules/shelljs/src/ls.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/cordova/node_modules/shelljs/make.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/build/outputs/apk/manifest-merger-debug-report.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/CordovaLib/build/intermediates/incremental/mergeAssets/debug/merger.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/CordovaLib/build/intermediates/incremental/packageResources/debug/merger.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/build/intermediates/incremental/mergeAssets/debug/merger.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/build/intermediates/incremental/mergeResources/debug/merger.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/cordova/node_modules/shelljs/src/mkdir.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/cordova/node_modules/shelljs/src/mv.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/assets/www/lib/ngCordova/dist/ng-cordova-mocks.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/build/intermediates/assets/debug/www/lib/ngCordova/dist/ng-cordova-mocks.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/assets/www/lib/ngCordova/dist/ng-cordova-mocks.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/build/intermediates/assets/debug/www/lib/ngCordova/dist/ng-cordova-mocks.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/assets/www/lib/ngCordova/dist/ng-cordova.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/build/intermediates/assets/debug/www/lib/ngCordova/dist/ng-cordova.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/assets/www/lib/ngCordova/dist/ng-cordova.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/build/intermediates/assets/debug/www/lib/ngCordova/dist/ng-cordova.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/cordova/node_modules/nopt/lib/nopt.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/org.apache.cordova.dialogs/src/ubuntu/notification.cpp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/org.apache.cordova.dialogs/www/firefoxos/notification.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/org.apache.cordova.dialogs/src/ubuntu/notification.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/assets/www/plugins/org.apache.cordova.dialogs/www/notification.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/assets/www/plugins/org.apache.cordova.dialogs/www/android/notification.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/build/intermediates/assets/debug/www/plugins/org.apache.cordova.dialogs/www/notification.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/build/intermediates/assets/debug/www/plugins/org.apache.cordova.dialogs/www/android/notification.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/org.apache.cordova.dialogs/src/firefoxos/notification.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/org.apache.cordova.dialogs/www/notification.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/org.apache.cordova.dialogs/www/android/notification.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/org.apache.cordova.dialogs/www/browser/notification.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/org.apache.cordova.dialogs/src/ubuntu/notification.qml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/assets/www/js/modules/overview.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/assets/www/js/services/overview.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/build/intermediates/assets/debug/www/js/modules/overview.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/build/intermediates/assets/debug/www/js/services/overview.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/assets/www/lib/angular/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/assets/www/lib/angular-animate/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/assets/www/lib/angular-sanitize/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/assets/www/lib/ngCordova/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/build/intermediates/assets/debug/www/lib/angular/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/build/intermediates/assets/debug/www/lib/angular-animate/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/build/intermediates/assets/debug/www/lib/angular-sanitize/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/build/intermediates/assets/debug/www/lib/ngCordova/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/cordova/node_modules/nopt/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/cordova/node_modules/nopt/node_modules/abbrev/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/cordova/node_modules/q/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/cordova/node_modules/shelljs/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/cordova/node_modules/which/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/org.apache.cordova.dialogs/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/platforms.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/cordova/lib/plugin-build.gradle" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/org.apache.cordova.dialogs/plugin.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/org.apache.cordova.dialogs/tests/plugin.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/cordova/node_modules/shelljs/src/popd.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/project.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/CordovaLib/project.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/cordova/node_modules/shelljs/src/pushd.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/cordova/node_modules/shelljs/src/pwd.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/cordova/node_modules/q/q.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/cordova/node_modules/q/queue.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/assets/www/lib/angular-ui-router/src/resolve.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/build/intermediates/assets/debug/www/lib/angular-ui-router/src/resolve.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/cordova/node_modules/shelljs/src/rm.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/cordova/node_modules/shelljs/scripts/run-tests.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/cordova/run.bat" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/cordova/lib/run.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/cordova/run" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/cordova/node_modules/q/benchmark/scenarios.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/cordova/node_modules/shelljs/src/sed.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/settings.gradle" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/assets/www/js/modules/settings.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/build/intermediates/assets/debug/www/js/modules/settings.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/cordova/node_modules/shelljs/shell.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/cordova/node_modules/shelljs/bin/shjs" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/cordova/lib/spawn.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/cordova/lib/start-emulator.bat" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/cordova/lib/start-emulator" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/assets/www/lib/angular-ui-router/src/state.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/build/intermediates/assets/debug/www/lib/angular-ui-router/src/state.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/assets/www/lib/angular-ui-router/src/stateDirectives.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/build/intermediates/assets/debug/www/lib/angular-ui-router/src/stateDirectives.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/assets/www/lib/angular-ui-router/src/stateFilters.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/build/intermediates/assets/debug/www/lib/angular-ui-router/src/stateFilters.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/res/values/strings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/assets/www/css/style.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/build/intermediates/assets/debug/www/css/style.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/assets/www/views/tab-details.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/build/intermediates/assets/debug/www/views/tab-details.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/assets/www/views/tab-overview.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/build/intermediates/assets/debug/www/views/tab-overview.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/assets/www/views/tab-settings.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/build/intermediates/assets/debug/www/views/tab-settings.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/assets/www/views/tabs.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/build/intermediates/assets/debug/www/views/tabs.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/assets/www/js/modules/tabs.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/build/intermediates/assets/debug/www/js/modules/tabs.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/cordova/node_modules/shelljs/src/tempdir.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/assets/www/lib/angular-ui-router/src/templateFactory.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/build/intermediates/assets/debug/www/lib/angular-ui-router/src/templateFactory.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/cordova/node_modules/shelljs/src/test.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/org.apache.cordova.dialogs/tests/tests.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/cordova/node_modules/shelljs/src/to.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/cordova/node_modules/shelljs/src/toEnd.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/assets/www/lib/angular-ui-router/src/urlMatcherFactory.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/build/intermediates/assets/debug/www/lib/angular-ui-router/src/urlMatcherFactory.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/assets/www/lib/angular-ui-router/src/urlRouter.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/build/intermediates/assets/debug/www/lib/angular-ui-router/src/urlRouter.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/build/intermediates/res/debug/values/values.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/cordova/version.bat" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/cordova/version" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/assets/www/lib/angular-ui-router/src/view.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/build/intermediates/assets/debug/www/lib/angular-ui-router/src/view.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/assets/www/lib/angular-ui-router/src/viewDirective.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/build/intermediates/assets/debug/www/lib/angular-ui-router/src/viewDirective.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/assets/www/lib/angular-ui-router/src/viewScroll.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/build/intermediates/assets/debug/www/lib/angular-ui-router/src/viewScroll.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/cordova/node_modules/shelljs/src/which.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/cordova/node_modules/which/which.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/cordova/node_modules/which/bin/which" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/assets/www/plugins/cordova-plugin-whitelist/whitelist.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/platforms/android/build/intermediates/assets/debug/www/plugins/cordova-plugin-whitelist/whitelist.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/js/app.js" afterPath="$PROJECT_DIR$/www/js/app.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config.xml" afterPath="$PROJECT_DIR$/config.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/www/js/remote/http.js" afterPath="$PROJECT_DIR$/www/js/remote/http.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Catalyst.iws" />
@@ -712,7 +39,17 @@
         <entry file="file://$PROJECT_DIR$/www/js/remote/http.js">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.20920502">
-              <caret line="6" column="21" selection-start-line="6" selection-start-column="21" selection-end-line="6" selection-end-column="21" />
+              <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="config.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/config.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="18" column="47" selection-start-line="18" selection-start-column="47" selection-end-line="18" selection-end-column="47" />
               <folding />
             </state>
           </provider>
@@ -762,11 +99,11 @@
         <option value="$PROJECT_DIR$/www/js/modules/details.js" />
         <option value="$PROJECT_DIR$/www/js/modules/overview.js" />
         <option value="$PROJECT_DIR$/www/index.html" />
-        <option value="$PROJECT_DIR$/config.xml" />
         <option value="$PROJECT_DIR$/www/js/services/detail.js" />
         <option value="$PROJECT_DIR$/www/js/modules/login.js" />
         <option value="$PROJECT_DIR$/www/js/remote/config.js" />
         <option value="$PROJECT_DIR$/www/js/app.js" />
+        <option value="$PROJECT_DIR$/config.xml" />
         <option value="$PROJECT_DIR$/www/js/remote/http.js" />
       </list>
     </option>
@@ -1165,14 +502,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.68378997">
-          <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/www/js/services/injects.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -1222,14 +551,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/www/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-18.882353">
-          <caret line="53" column="24" selection-start-line="53" selection-start-column="24" selection-end-line="53" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/www/views/tabs.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -1242,6 +563,22 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="16" selection-start-line="0" selection-start-column="16" selection-end-line="0" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/www/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-18.882353">
+          <caret line="53" column="24" selection-start-line="53" selection-start-column="24" selection-end-line="53" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="18" column="47" selection-start-line="18" selection-start-column="47" selection-end-line="18" selection-end-column="47" />
           <folding />
         </state>
       </provider>
@@ -1265,7 +602,7 @@
     <entry file="file://$PROJECT_DIR$/www/js/remote/http.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.20920502">
-          <caret line="6" column="21" selection-start-line="6" selection-start-column="21" selection-end-line="6" selection-end-column="21" />
+          <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
           <folding />
         </state>
       </provider>

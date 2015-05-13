@@ -4,7 +4,7 @@ angular.module('remote.http', [])
   var self = this;
 
   self.run = function (req) {
-    req.timeout=2000;
+    req.timeout=5000;
    // alert(JSON.stringify(req));
 
     var deferred = $q.defer();
