@@ -1,8 +1,8 @@
 angular.module('app', ['service.injects','ngCordova'])
 
-.run(function ($ionicPlatform, db,$ionicViewService,$ionicHistory,$state,$cordovaDialogs) {
+.run(function ($ionicPlatform, db,$ionicHistory,$state,$cordovaDialogs) {
       $ionicPlatform.registerBackButtonAction(function () {
-          $ionicViewService.nextViewOptions({
+          $ionicHistory.nextViewOptions({
               disableBack: true
           });
 
