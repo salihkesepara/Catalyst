@@ -6,14 +6,19 @@ angular.module('service.overview', [])
       chart: {
         plotBackgroundColor: null,
         plotBorderWidth: 0,
-        plotShadow: false
+        plotShadow: false,
+        height: $(window).width() > 500 ? 600 : 350,
+        marginTop: $(window).width() > 500 ? -300 : -200
       },
       colors: ['#f3742a', '#387ef5', '#8bbc21'],
       title: {
         text: '%' + parseInt(userUsage.dataUsage) + '<br>İnternet',
         align: 'center',
         verticalAlign: 'middle',
-        y: 50,
+        y: $(window).width() > 500 ? 0 : -10,
+        style: {
+          "fontSize": $(window).width() > 500 ? "22px" : "16px",
+        }
       },
       tooltip: {
         enabled: false
@@ -26,7 +31,8 @@ angular.module('service.overview', [])
             style: {
               fontWeight: 'bold',
               color: 'white',
-              textShadow: '0px 1px 2px black'
+              textShadow: '0px 1px 2px black',
+              fontSize: $(window).width() > 500 ? '16px' : '11px',
             }
           },
           startAngle: -90,
