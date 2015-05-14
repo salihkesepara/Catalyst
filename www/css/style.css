@@ -6,7 +6,6 @@
 .logo .img {
   width: 200px;
 }
-
 /*
 @media (max-width: 400px) {
   #container {
@@ -39,7 +38,11 @@
 
 .login-view {
   padding: 140px 10px 10px 10px;
-  background-color: #48637E;
+  /*  background-color: #48637E;*/
+  
+  background: url(../img/loginScreen.png);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
 }
 
 .login-button {
