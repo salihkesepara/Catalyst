@@ -96,16 +96,12 @@ angular.module('service.overview', [])
           enabled: true,
           style: {
             fontWeight: 'bold',
-            color: (Highcharts.theme && Highcharts.theme.textColor) || 'gray'
+            color: (Highcharts.theme && Highcharts.theme.textColor) || 'gray',
           }
         }
       },
       tooltip: {
-        formatter: function () {
-          return '<b>' + this.x + '</b><br/>' +
-            this.series.name + ': ' + this.y + '<br/>' +
-            'Total: ' + this.point.stackTotal;
-        }
+        enabled: false
       },
       plotOptions: {
         column: {
@@ -126,11 +122,29 @@ angular.module('service.overview', [])
         }
       },
       series: [{
-        name: 'John',
-        data: [95, 20, 56]
+        name: 'Remaining',
+        data: [{
+          y: 100 - parseInt(userUsage.dataUsage),
+          color: '#ccc'
         }, {
-        name: 'Jane',
-        data: [5, 80, 44]
+          y: 100 - parseInt(userUsage.smsUsage),
+          color: '#ccc'
+        }, {
+          y: 100 - parseInt(userUsage.voiceUsage),
+          color: '#ccc'
+        }]
+        }, {
+        name: 'Usage',
+        data: [{
+          y: parseInt(userUsage.dataUsage),
+          color: '#f3742a'
+        }, {
+          y: parseInt(userUsage.smsUsage),
+          color: '#387ef5'
+        }, {
+          y: parseInt(userUsage.voiceUsage),
+          color: '#8bbc21'
+        }]
         }]
     }
   }
