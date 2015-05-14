@@ -30,6 +30,6 @@ angular.module('module.overview', [])
   
   $scope.select = function(id) {
     var chart = $('#container').highcharts();
-    chart.series[0].data[id].select();
+   chart.series.point.events.mouseOver();
   }
 })
