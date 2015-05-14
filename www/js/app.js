@@ -1,6 +1,7 @@
 angular.module('app', ['service.injects', 'ngCordova'])
 
 .run(function ($ionicPlatform, db, $ionicHistory, $state, $cordovaDialogs, $cordovaStatusbar) {
+      ionic.Platform.isFullScreen = true
   $ionicPlatform.registerBackButtonAction(function () {
     $ionicHistory.nextViewOptions({
       disableBack: true

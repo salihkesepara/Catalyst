@@ -1,17 +1,17 @@
 <ion-view view-title="Login" hide-nav-bar="true">
-  <ion-content class="login-view">
-    <ion-scroll direction="x">
+
+    <ion-scroll class="login-view" overflow-scroll="true" direction="y" >
     <div class="logo"><img class="img" src="img/etiyaLogo.png"></div>
     <ion-list>
       <ion-item class="item-input login-input">
 
-        <input type="number" placeholder="Subscriber ID" ng-model="login.id" pattern="[0-9]*">
 
-        <input type="text" placeholder="Subscriber" ng-model="login.id" pattern="[0-9]*">
+
+        <input type="number" placeholder="Subscriber" ng-model="login.id" pattern="[0-9]*">
 
       </ion-item>
     </ion-list>
     <button class="button button-block button-outline button-positive login-button" on-touch="goHome()">Login</button>
     </ion-scroll>
-  </ion-content>
+
 </ion-view>
