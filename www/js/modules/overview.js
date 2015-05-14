@@ -28,12 +28,4 @@ angular.module('module.overview', [])
     $state.go('login');
   }
 
-  
-  $scope.select = function(id) {
-    console.log(id);
-    var chart = $('#container').highcharts();
-
-
-  }
-
 })
