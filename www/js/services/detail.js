@@ -3,10 +3,10 @@ angular.module('service.detail', [])
 .factory('detail', [function () {
   function internet(userUsageAll) {
     var data = [];
-    userUsageAll.forEach(function(item) {
+    userUsageAll.forEach(function (item) {
       data.push(parseInt(item.dataUsage));
     });
-    
+
     var chart = {
       chart: {
         height: 250
@@ -68,19 +68,19 @@ angular.module('service.detail', [])
         enableMouseTracking: false
         }]
     }
-    
+
     return chart;
   }
-  
-  
-  
-  
+
+
+
+
   function sms(userUsageAll) {
     var data = [];
-    userUsageAll.forEach(function(item) {
+    userUsageAll.forEach(function (item) {
       data.push(parseInt(item.smsUsage));
     });
-    
+
     var chart = {
       chart: {
         height: 250
@@ -142,16 +142,16 @@ angular.module('service.detail', [])
         enableMouseTracking: false
         }]
     }
-    
+
     return chart;
   }
-  
+
   function arama(userUsageAll) {
     var data = [];
-    userUsageAll.forEach(function(item) {
+    userUsageAll.forEach(function (item) {
       data.push(parseInt(item.voiceUsage));
     });
-    
+
     var chart = {
       chart: {
         height: 250
@@ -213,7 +213,7 @@ angular.module('service.detail', [])
         enableMouseTracking: false
         }]
     }
-    
+
     return chart;
   }
 

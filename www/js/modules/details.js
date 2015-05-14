@@ -13,12 +13,20 @@ angular.module('module.details', [])
     })
 })
 
-.controller('DetailsCtrl', function ($scope, $rootScope, detail) {
-  var userUsageAll = $rootScope.userUsageAll;
-
-      $('#containerInternet').highcharts(detail.internet(userUsageAll));
-  $('#containerSms').highcharts(detail.sms(userUsageAll));
-  $('#containerArama').highcharts(detail.arama(userUsageAll));
-
-
+.controller('DetailsCtrl', function ($scope, $rootScope, detail, db) {
+  if (typeof $rootScope.userUsageAll === 'undefined') {
+    db.get('userUsageAll').then(function (result) {
+      $rootScope.userUsageAll = JSON.parse(result[0].data);
+      console.log($rootScope.userUsageAll);
+      addData($rootScope.userUsageAll.periodUsage);
+    });
+  } else {
+    addData($rootScope.userUsageAll);
+  }
+  
+  function addData(data) {
+    $('#containerInternet').highcharts(detail.internet(data));
+    $('#containerSms').highcharts(detail.sms(data));
+    $('#containerArama').highcharts(detail.arama(data));
+  }
 })
