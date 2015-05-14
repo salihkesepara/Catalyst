@@ -15,9 +15,14 @@ angular.module('module.login', [])
   }
   $scope.goHome = function () {
     if ($scope.login.id == '') {
+
       alert('Subscriber ID is required!');
      return;
-    };
+
+      alert('Subscriber is required!');
+      return;
+
+  };
     loading.start();
 
     var isUsageOk = false,
@@ -68,6 +73,7 @@ angular.module('module.login', [])
     }
 
     function goHome() {
+      $scope.login.id = '';
       loading.stop();
       $state.go('tab.overview');
     }
