@@ -18,13 +18,15 @@ angular.module('module.details', [])
     db.get('userUsageAll').then(function (result) {
       $rootScope.userUsageAll = JSON.parse(result[0].data);
       console.log($rootScope.userUsageAll);
-      $('#containerInternet').highcharts(detail.internet($rootScope.userUsageAll.periodUsage));
-      $('#containerSms').highcharts(detail.sms($rootScope.userUsageAll.periodUsage));
-      $('#containerArama').highcharts(detail.arama($rootScope.userUsageAll.periodUsage));
+      addData($rootScope.userUsageAll.periodUsage);
     });
   } else {
-    $('#containerInternet').highcharts(detail.internet($rootScope.userUsageAll));
-    $('#containerSms').highcharts(detail.sms($rootScope.userUsageAll));
-    $('#containerArama').highcharts(detail.arama($rootScope.userUsageAll));
+    addData($rootScope.userUsageAll);
+  }
+  
+  function addData(data) {
+    $('#containerInternet').highcharts(detail.internet(data));
+    $('#containerSms').highcharts(detail.sms(data));
+    $('#containerArama').highcharts(detail.arama(data));
   }
 })
