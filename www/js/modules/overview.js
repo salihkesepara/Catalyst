@@ -27,9 +27,4 @@ angular.module('module.overview', [])
   $scope.goLogin = function () {
     $state.go('login');
   }
-  
-  $scope.select = function(id) {
-    var chart = $('#container').highcharts();
-   chart.series.point.events.mouseOver();
-  }
 })
