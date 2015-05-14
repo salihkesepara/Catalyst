@@ -39,7 +39,7 @@ angular.module('service.overview', [])
               fontWeight: 'bold',
               color: 'white',
               textShadow: '0px 1px 2px black',
-              fontSize: $(window).width() > 500 ? '16px' : '11px',
+              fontSize: $(window).width() > 500 ? '16px' : '11px'
             }
           },
           startAngle: -90,
