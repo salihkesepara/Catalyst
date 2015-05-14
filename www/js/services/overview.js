@@ -23,7 +23,7 @@ angular.module('service.overview', [])
         }
       },
       tooltip: {
-        enabled: false
+        enabled:false
       },
       plotOptions: {
         pie: {

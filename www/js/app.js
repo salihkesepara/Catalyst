@@ -9,7 +9,7 @@ angular.module('app', ['service.injects', 'ngCordova'])
     if ($ionicHistory.currentStateName() === "login") {
       navigator.app.exitApp();
     }
-    $cordovaDialogs.confirm('Çıkmak istediğinizden eminmisiniz?', 'Çıkış', ['Evet', 'Hayır'])
+    $cordovaDialogs.confirm('Are you sure you want to exit?', 'Confirm', ['Yes', 'No'])
       .then(function (buttonIndex) {
 
         var btnIndex = buttonIndex;

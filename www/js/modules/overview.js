@@ -29,7 +29,9 @@ angular.module('module.overview', [])
   }
   
   $scope.select = function(id) {
+    console.log(id);
     var chart = $('#container').highcharts();
-   chart.series.point.events.mouseOver();
+
+
   }
 })

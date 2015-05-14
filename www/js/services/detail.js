@@ -90,7 +90,7 @@ angular.module('service.detail', [])
       },
       subtitle: {
         text: document.ontouchstart === undefined ?
-          'Click and drag in the plot area to zoom in' : '1000 '
+          'Click and drag in the plot area to zoom in' : '1000 Unit '
       },
       xAxis: {
         type: 'datetime',
