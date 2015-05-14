@@ -73,7 +73,7 @@ angular.module('service.overview', [])
       //      }]
 
       chart: {
-        type: 'column',
+        type: 'bar',
         height: 250,
         marginTop: 50,
       },
