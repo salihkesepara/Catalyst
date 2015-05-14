@@ -9,13 +9,13 @@ angular.module('module.login', [])
     })
 })
 
-.controller('LoginCtrl', ['$scope', 'loading', '$state', 'getUserUsage', 'getUserUsageAll', '$rootScope', 'db', function ($scope, loading, $state, getUserUsage, getUserUsageAll, $rootScope, db) {
+.controller('LoginCtrl', ['$scope', 'loading', '$state', 'getUserUsage', 'getUserUsageAll', '$cordovaDialogs', '$rootScope', 'db', function ($scope, loading, $state, getUserUsage, getUserUsageAll, $cordovaDialogs, $rootScope, db) {
   $scope.login = {
     id: ''
   }
   $scope.goHome = function () {
     if ($scope.login.id == '') {
-      alert('Subscriber is required!');
+      $cordovaDialogs.alert('Subscriber is required', 'Alert', 'OK');
       return;
     };
     loading.start();
