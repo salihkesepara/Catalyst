@@ -90,7 +90,7 @@ angular.module('service.detail', [])
       },
       subtitle: {
         text: document.ontouchstart === undefined ?
-          'Click and drag in the plot area to zoom in' : '1000 ADET'
+          'Click and drag in the plot area to zoom in' : '1000 '
       },
       xAxis: {
         type: 'datetime',
@@ -157,11 +157,11 @@ angular.module('service.detail', [])
         height: 250
       },
       title: {
-        text: 'Arama'
+        text: 'Voice'
       },
       subtitle: {
         text: document.ontouchstart === undefined ?
-          'Click and drag in the plot area to zoom in' : '2000 DK'
+          'Click and drag in the plot area to zoom in' : '2000 Min'
       },
       xAxis: {
         type: 'datetime',

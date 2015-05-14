@@ -1,10 +1,10 @@
-<ion-view view-title="Ayarlar">
+<ion-view view-title="Settings">
   <ion-nav-buttons side="left">
     <span><img src="img/e.png" class="header-logo"></span>
   </ion-nav-buttons>
   <ion-content>
     <ion-list>
-      <ion-item class="item item-divider">Internet kullanımını belirle</ion-item>
+      <ion-item class="item item-divider">Internet Threshold</ion-item>
       <ion-item class="item range range-positive">
         <span>{{data.mb}} MB</span>
 
@@ -12,21 +12,21 @@
 
         <span>1000 MB</span>
       </ion-item>
- <ion-toggle ng-model="internet" toggle-class="toggle-calm">Send Notification</ion-toggle>
-      <ion-item class="item item-divider">SMS Kullanımını belirle</ion-item>
+ <ion-toggle ng-model="internet" toggle-class="toggle-calm">Allow  Notifications</ion-toggle>
+      <ion-item class="item item-divider">SMS Threshold</ion-item>
       <ion-item class="item range range-positive">
         <span>{{data.sms}} Adet</span>
         <input type="range" name="sms" ng-model="data.sms" min="0" max="2000">
         <span>2000 Adet</span>
       </ion-item>
-      <ion-toggle ng-model="sms" toggle-class="toggle-calm">Send Notification</ion-toggle>
-      <ion-item class="item item-divider">Arama kullanımını belirle</ion-item>
+      <ion-toggle ng-model="sms" toggle-class="toggle-calm">Allow  Notifications</ion-toggle>
+      <ion-item class="item item-divider">Voice Threshold</ion-item>
       <ion-item class="item range range-positive">
-        <span>{{data.dk}} DK</span>
+        <span>{{data.dk}} Min</span>
         <input type="range" name="dk" ng-model="data.dk" min="0" max="500">
         <span>500 DK</span>
       </ion-item>
     </ion-list>
-    <ion-toggle ng-model="calling" toggle-class="toggle-calm">Send Notification</ion-toggle>
+    <ion-toggle ng-model="calling" toggle-class="toggle-calm">Allow  Notifications</ion-toggle>
   </ion-content>
 </ion-view>
