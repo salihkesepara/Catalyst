@@ -4,7 +4,7 @@ angular.module('service.overview', [])
   function data(userUsage) {
     console.log($(window).width());
     return {
-      chart: {
+        chart: {
         plotBackgroundColor: null,
         plotBorderWidth: 0,
         plotShadow: false,
@@ -13,7 +13,7 @@ angular.module('service.overview', [])
       },
       colors: ['#f3742a', '#387ef5', '#8bbc21'],
       title: {
-        text: '%' + parseInt(userUsage.dataUsage) + '<br>İnternet',
+        text: '%' + parseInt(userUsage.dataUsage) + '<br>Internet',
         align: 'center',
 
         verticalAlign: 'middle',
@@ -50,7 +50,25 @@ angular.module('service.overview', [])
               ['%' + parseInt(userUsage.dataUsage), parseInt(userUsage.dataUsage)],
               ['%' + parseInt(userUsage.smsUsage), parseInt(userUsage.smsUsage)],
               ['%' + parseInt(userUsage.voiceUsage), parseInt(userUsage.voiceUsage)],
-            ]
+            ],
+        point:{
+          events:{
+            mouseOver: function (event) {
+
+             var chart=$('#container').highcharts();
+              if(this.x===0){
+                chart.setTitle({ text:'%'+this.y+"<br> Internet"});
+              }
+              else if(this.x===1){
+                chart.setTitle({ text:'%'+this.y+"<br> SMS"});
+              }
+              else{
+                chart.setTitle({ text:'%'+this.y+"<br> Voice"});
+              }
+
+            }
+          }
+        }
       }]
     }
   }
