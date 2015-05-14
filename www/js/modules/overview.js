@@ -14,11 +14,17 @@ angular.module('module.overview', [])
 })
 
 
-.controller('OverviewCtrl', function ($scope, $rootScope, overview, $state) {
-  var userUsage = $rootScope.userUsage;
-  $('#container').highcharts(overview.data(userUsage));
+.controller('OverviewCtrl', function ($scope, $rootScope, overview, $state, db) {
+  if (typeof $rootScope.userUsage === 'undefined') {
+    db.get('userUsage').then(function (result) {
+      $rootScope.userUsage = JSON.parse(result[0].data);
+      $('#container').highcharts(overview.data($rootScope.userUsage));
+    });
+  } else {
+    $('#container').highcharts(overview.data($rootScope.userUsage));
+  }
 
-  $scope.goLogin = function() {
+  $scope.goLogin = function () {
     $state.go('login');
   }
 })

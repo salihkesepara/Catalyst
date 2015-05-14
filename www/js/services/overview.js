@@ -2,14 +2,19 @@ angular.module('service.overview', [])
 
 .factory('overview', [function () {
   function data(userUsage) {
-    console.log($(window).width());
     return {
       chart: {
         plotBackgroundColor: null,
         plotBorderWidth: 0,
         plotShadow: false,
         height: $(window).width() > 500 ? 600 : 350,
-        marginTop: $(window).width() > 500 ? -100 : -200
+        marginTop: $(window).width() > 500 ? -100 : -200,
+        click: function (e) {
+          console.log(
+            Highcharts.dateFormat('%Y-%m-%d %H:%M:%S', e.xAxis[0].value),
+            e.yAxis[0].value
+          )
+        }
       },
       colors: ['#f3742a', '#387ef5', '#8bbc21'],
       title: {
