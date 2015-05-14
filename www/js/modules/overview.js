@@ -27,6 +27,7 @@ angular.module('module.overview', [])
   $scope.goLogin = function () {
     $state.go('login');
   }
+
   
   $scope.select = function(id) {
     console.log(id);
@@ -34,4 +35,5 @@ angular.module('module.overview', [])
 
 
   }
+
 })

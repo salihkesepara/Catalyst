@@ -5,19 +5,19 @@
   <ion-content scroll="false">
     <div id="container"></div>
     <ul class="list overview-list">
-      <li class="item" on-touch="select(0)">
+      <li class="item">
         <span class="overview-color network"></span>
-        <span class="overview-description">620 MB</span>
+        <span class="overview-description">{{userUsage.dataUsage * 1000 / 100}} MB</span>
           <span class="item-note">Internet</span>
       </li>
-      <li class="item" on-touch="select(1)">
+      <li class="item">
         <span class="overview-color sms"></span>
-        <span class="overview-description">200 SMS</span>
+        <span class="overview-description">{{userUsage.smsUsage * 2000 / 100}} SMS</span>
         <span class="item-note">SMS</span>
       </li>
-      <li class="item" on-touch="select(2)">
+      <li class="item">
         <span class="overview-color call"></span>
-        <span class="overview-description">300 Min</span>
+        <span class="overview-description">{{userUsage.voiceUsage* 500 / 100}} Min</span>
         <span class="item-note">Voice</span>
       </li>
     </ul>
