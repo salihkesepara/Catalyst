@@ -4,6 +4,7 @@ angular.module('module.overview', [])
   $stateProvider
     .state('tab.overview', {
       url: '/overview',
+      cache: false,
       views: {
         'tab-overview': {
           templateUrl: 'views/tab-overview.html',
@@ -14,14 +15,16 @@ angular.module('module.overview', [])
 })
 
 
-.controller('OverviewCtrl', function ($scope, $rootScope, overview, $state, db) {
+.controller('OverviewCtrl', function ($scope, $rootScope, overview, $state, db, $timeout) {
   if (typeof $rootScope.userUsage === 'undefined') {
     db.get('userUsage').then(function (result) {
       $rootScope.userUsage = JSON.parse(result[0].data);
       $('#container').highcharts(overview.data($rootScope.userUsage));
     });
   } else {
-    $('#container').highcharts(overview.data($rootScope.userUsage));
+    $timeout(function() {
+      $('#container').highcharts(overview.data($rootScope.userUsage));
+    }, 100);
   }
 
   $scope.goLogin = function () {
