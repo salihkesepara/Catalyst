@@ -8,7 +8,7 @@ angular.module('service.overview', [])
         plotBorderWidth: 0,
         plotShadow: false,
         height: $(window).width() > 500 ? 600 : 350,
-        marginTop: $(window).width() > 500 ? -100 : -200,
+        marginTop: $(window).width() > 500 ? -100 : -200
       },
       colors: ['#f3742a', '#387ef5', '#8bbc21'],
       title: {
