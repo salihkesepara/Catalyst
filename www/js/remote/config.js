@@ -8,8 +8,8 @@ angular.module('remote.config', [])
     post: 'POST',
 
     url: {
-      getUserUsage: baseURL + 'GetUserUsage/1182329',
-      getUserUsageAll: baseURL + 'GetUserUsageAll/1182329'
+      getUserUsage: '',
+      getUserUsageAll: ''
     }
   }
 

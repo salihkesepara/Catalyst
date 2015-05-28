@@ -3,7 +3,8 @@ angular.module('request.getUserUsageAll', [])
 .factory('getUserUsageAll', ['config', 'http', 'db', '$q', function (config, http, db, $q) {
   var self = this;
 
-  self.run = function ()  {
+  self.run = function (id)  {
+    config.getUserUsageAll.url = 'http://195.142.3.135:8080/TmForumMobile/rest/GetUserUsageAll/' + id;
     function parserCallBack(result) {
       return saveDB(result);
     }

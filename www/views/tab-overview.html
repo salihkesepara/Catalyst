@@ -2,7 +2,7 @@
   <ion-nav-buttons side="left">
     <span><img src="img/e.png" class="header-logo"></span>
   </ion-nav-buttons>
-  <ion-content scroll="false">
+  <ion-content>
     <div id="container"></div>
     <ul class="list overview-list">
       <li class="item">
@@ -19,6 +19,11 @@
         <span class="overview-color call"></span>
         <span class="overview-description">{{userUsage.voiceUsage* 500 / 100}} Min</span>
         <span class="item-note">Voice</span>
+      </li>
+      <li class="item">
+        <span class="overview-color un-usage"></span>
+        <span class="overview-description">Unused</span>
+        <span class="item-note">Unused</span>
       </li>
     </ul>
   </ion-content>

@@ -4,6 +4,7 @@ angular.module('module.settings', [])
   $stateProvider
     .state('tab.settings', {
       url: '/settings',
+      cache: false,
       views: {
         'tab-settings': {
           templateUrl: 'views/tab-settings.html',

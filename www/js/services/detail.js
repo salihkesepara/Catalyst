@@ -26,7 +26,6 @@ angular.module('service.detail', [])
         title: {
           text: ''
         },
-        max: 2,
         min: 0
       },
       legend: {
@@ -100,7 +99,6 @@ angular.module('service.detail', [])
         title: {
           text: ''
         },
-        max: 2,
         min: 0
       },
       legend: {
@@ -171,7 +169,6 @@ angular.module('service.detail', [])
         title: {
           text: ''
         },
-        max: 2,
         min: 0
       },
       legend: {

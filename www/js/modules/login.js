@@ -4,6 +4,7 @@ angular.module('module.login', [])
   $stateProvider
     .state('login', {
       url: '/login',
+      cache: false,
       templateUrl: 'views/login.html',
       controller: 'LoginCtrl'
     })
@@ -14,7 +15,7 @@ angular.module('module.login', [])
     id: ''
   }
   $scope.goHome = function () {
-    if ($scope.login.id == '') {
+    if ($scope.login.id == '' || $scope.login.id == null) {
       $cordovaDialogs.alert('Subscriber is required', 'Alert', 'OK');
       return;
     };
@@ -23,7 +24,7 @@ angular.module('module.login', [])
     var isUsageOk = false,
       isUsageAllOk = false;
 
-    getUserUsage.run().then(function (result) {
+    getUserUsage.run($scope.login.id).then(function (result) {
       userUsageOK(result);
     }, function (err) {
       console.log("loading.stop();");
@@ -32,11 +33,13 @@ angular.module('module.login', [])
       db.get('userUsage').then(function (result) {
         if (result.length != 0) {
           userUsageOK(JSON.parse(result[0].data));
+        } else {
+          $cordovaDialogs.alert('Check your network!', 'Alert', 'OK');
         }
       });
     });
 
-    getUserUsageAll.run().then(function (result) {
+    getUserUsageAll.run($scope.login.id).then(function (result) {
       userUsageAllOK(result);
     }, function (err) {
       console.log(err);

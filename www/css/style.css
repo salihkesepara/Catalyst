@@ -39,7 +39,7 @@
 .login-view {
   padding: 140px 10px 10px 10px;
   /*  background-color: #48637E;*/
-  height:100%;
+  height:101%;
   background: url(../img/loginScreen.png);
   background-size: 100% 100%;
   background-repeat: no-repeat;
@@ -89,4 +89,8 @@
 
 .call {
   background-color: rgb(139, 188, 33);
+}
+
+.un-usage {
+  background-color: rgb(204, 204, 204)
 }

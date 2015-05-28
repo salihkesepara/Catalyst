@@ -15,20 +15,21 @@ angular.module('module.overview', [])
 })
 
 
-.controller('OverviewCtrl', function ($scope, $rootScope, overview, $state, db, $timeout) {
-  if (typeof $rootScope.userUsage === 'undefined') {
-    db.get('userUsage').then(function (result) {
-      $rootScope.userUsage = JSON.parse(result[0].data);
+.controller('OverviewCtrl', function ($scope, $rootScope, overview, $state, db, $timeout, loading) {
+  loading.start();
+  $timeout(function ()  {
+    if (typeof $rootScope.userUsage === 'undefined') {
+      db.get('userUsage').then(function (result) {
+        $rootScope.userUsage = JSON.parse(result[0].data);
+        $('#container').highcharts(overview.data($rootScope.userUsage));
+      });
+    } else {
       $('#container').highcharts(overview.data($rootScope.userUsage));
-    });
-  } else {
-    $timeout(function() {
-      $('#container').highcharts(overview.data($rootScope.userUsage));
-    }, 100);
-  }
+    }
+    loading.stop();
+  }, 1000);
 
   $scope.goLogin = function () {
     $state.go('login');
   }
-
 })
