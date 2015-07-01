@@ -7,12 +7,14 @@ angular.module('service.injects', [
   'module.settings',
   'module.login',
   'module.tabs',
+  'module.profile',
   
   // Service
   'service.detail',
   'service.injects',
   'services.loading',
   'service.overview',
+  'service.addons',
   
   // Resource
   'resource.config',

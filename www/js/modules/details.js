@@ -14,7 +14,7 @@ angular.module('module.details', [])
     })
 })
 
-.controller('DetailsCtrl', function ($scope, $rootScope, detail, db, loading, $timeout) {
+.controller('DetailsCtrl', function ($scope, $rootScope, detail, db, loading, $timeout, $cordovaDialogs, $state) {
   loading.start();
 
   $timeout(function () {
@@ -32,8 +32,18 @@ angular.module('module.details', [])
 
 
   function addData(data) {
+    if (angular.isUndefined(data) || !angular.isArray(data)) return;
     $('#containerInternet').highcharts(detail.internet(data));
     $('#containerSms').highcharts(detail.sms(data));
     $('#containerArama').highcharts(detail.arama(data));
+  };
+
+  $scope.logOut = function () {
+    $cordovaDialogs.confirm('Are you sure you want to exit?', 'Confirm', ['Yes', 'No']).then(function (buttonIndex) {
+      var btnIndex = buttonIndex;
+      if (btnIndex === 1) {
+        $state.go('login');
+      }
+    });
   }
 })

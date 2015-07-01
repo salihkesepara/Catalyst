@@ -29,16 +29,17 @@ angular.module('resource.config', [])
 })
 
 .constant('migration', [
-//  {
-//    migration: 1,
-//    name: 'DB',
-//    tables: [
-//      {
-//        name: 'todos',
-//        columns: [
-//          {name: 'migrate1', type: 'text'}
-//        ]
-//      },
-//    ]
-//  },
+  {
+    migration: 1,
+    name: 'catalystDB',
+    tables: [
+      {
+        name: 'AddOns',
+        columns: [
+          {name: 'id', type: 'text'},
+          {name: 'data', type: 'text'}
+        ]
+      },
+    ]
+  },
 ]);

@@ -2,31 +2,49 @@
   <ion-nav-buttons side="left">
     <span><img src="img/e.png" class="header-logo"></span>
   </ion-nav-buttons>
-  <ion-content>
-    <ion-list>
-      <ion-item class="item item-divider">Internet Threshold</ion-item>
+  <ion-nav-buttons side="right">
+    <button class="button-clear icon-right ion-android-exit exit-button" on-touch="logOut()"></button>
+  </ion-nav-buttons>
+  <ion-content class="back-img">
+
+    <div class="list card">
+      <ion-item class="item item-divider">Internet Threshold
+        <div class="item-icon-right"><i class="icon ion-wifi"></i>
+        </div>
+      </ion-item>
       <ion-item class="item range range-positive">
         <span>{{data.mb}} MB</span>
-
         <input type="range" name="mb" ng-model="data.mb" min="0" max="1000">
-
         <span>1000 MB</span>
       </ion-item>
- <ion-toggle ng-model="internet" toggle-class="toggle-positive">Allow  Notifications</ion-toggle>
-      <ion-item class="item item-divider">SMS Threshold</ion-item>
+      <ion-toggle ng-model="internet" toggle-class="toggle-positive">Allow Notifications</ion-toggle>
+    </div>
+
+    <div class="list card">
+      <ion-item class="item item-divider">SMS Threshold
+        <div class="item-icon-right"><i class="icon ion-ios-email"></i>
+        </div>
+      </ion-item>
       <ion-item class="item range range-positive">
         <span>{{data.sms}} Unit</span>
         <input type="range" name="sms" ng-model="data.sms" min="0" max="2000">
         <span>2000 Unit</span>
       </ion-item>
-      <ion-toggle ng-model="sms" toggle-class="toggle-positive">Allow  Notifications</ion-toggle>
-      <ion-item class="item item-divider">Voice Threshold</ion-item>
+      <ion-toggle ng-model="sms" toggle-class="toggle-positive">Allow Notifications</ion-toggle>
+    </div>
+
+    <div class="list card">
+      <ion-item class="item item-divider">Voice Threshold
+        <div class="item-icon-right"><i class="icon ion-ios-mic"></i>
+        </div>
+      </ion-item>
       <ion-item class="item range range-positive">
         <span>{{data.dk}} Min</span>
         <input type="range" name="dk" ng-model="data.dk" min="0" max="500">
         <span>500 Min</span>
       </ion-item>
-    </ion-list>
-    <ion-toggle ng-model="calling" toggle-class="toggle-positive">Allow  Notifications</ion-toggle>
+      <ion-toggle ng-model="calling" toggle-class="toggle-positive">Allow Notifications</ion-toggle>
+    </div>
+
   </ion-content>
 </ion-view>

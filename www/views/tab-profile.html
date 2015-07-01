@@ -1,0 +1,44 @@
+<ion-view view-title="Profile">
+  <ion-nav-buttons side="left">
+    <span><img src="img/e.png" class="header-logo"></span>
+  </ion-nav-buttons>
+  <ion-nav-buttons side="right">
+    <button class="button-clear icon-right ion-android-exit exit-button" on-touch="logOut()"></button>
+  </ion-nav-buttons>
+  <ion-content class="back-img">
+    <div class="card">
+      <div class="item item-text-wrap phone-number">
+        +90 541 659 75 80
+      </div>
+    </div>
+
+    <div class="list card">
+      <div class="item item-divider">Current Package</div>
+      <a href="#" class="item item-icon-right" on-touch="openModalCurrentPage()">
+        GSM Premium Package
+        <i class="icon ion-ios-arrow-forward"></i>
+      </a>
+    </div>
+
+    <div class="list card">
+      <div class="item item-divider">Current Addons</div>
+      <a href="#" class="item item-icon-right" on-touch="openModalAddons()">
+        {{addons.checked}}
+        <i class="icon ion-ios-arrow-forward"></i>
+      </a>
+    </div>
+
+    <script id="addons-modal.html" type="text/ng-template">
+      <ion-modal-view>
+        <div ng-include="'views/addons.html'"></div>
+      </ion-modal-view>
+    </script>
+
+    <script id="current-page-modal.html" type="text/ng-template">
+      <ion-modal-view>
+        <div ng-include="'views/current-page.html'"></div>
+      </ion-modal-view>
+    </script>
+
+  </ion-content>
+</ion-view>

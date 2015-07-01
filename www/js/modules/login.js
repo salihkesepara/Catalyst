@@ -10,7 +10,7 @@ angular.module('module.login', [])
     })
 })
 
-.controller('LoginCtrl', ['$scope', 'loading', '$state', 'getUserUsage', 'getUserUsageAll', '$cordovaDialogs', '$rootScope', 'db', function ($scope, loading, $state, getUserUsage, getUserUsageAll, $cordovaDialogs, $rootScope, db) {
+.controller('LoginCtrl', ['$scope', 'loading', '$state', 'getUserUsage', 'getUserUsageAll', '$cordovaDialogs', '$rootScope', 'db', 'addons', function ($scope, loading, $state, getUserUsage, getUserUsageAll, $cordovaDialogs, $rootScope, db, addons) {
   $scope.login = {
     id: ''
   }
@@ -23,6 +23,10 @@ angular.module('module.login', [])
 
     var isUsageOk = false,
       isUsageAllOk = false;
+    
+    addons.save().then(function(result) {
+      console.log(result);
+    });
 
     getUserUsage.run($scope.login.id).then(function (result) {
       userUsageOK(result);
@@ -51,7 +55,7 @@ angular.module('module.login', [])
         }
       });
     });
-
+    
     function userUsageOK(result) {
       console.log(result);
       $rootScope.userUsage = result;

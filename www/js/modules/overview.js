@@ -15,7 +15,7 @@ angular.module('module.overview', [])
 })
 
 
-.controller('OverviewCtrl', function ($scope, $rootScope, overview, $state, db, $timeout, loading) {
+.controller('OverviewCtrl', function ($scope, $rootScope, overview, $state, db, $timeout, loading, $cordovaDialogs) {
   loading.start();
   $timeout(function ()  {
     if (typeof $rootScope.userUsage === 'undefined') {
@@ -29,7 +29,12 @@ angular.module('module.overview', [])
     loading.stop();
   }, 1000);
 
-  $scope.goLogin = function () {
-    $state.go('login');
+  $scope.logOut = function () {
+    $cordovaDialogs.confirm('Are you sure you want to exit?', 'Confirm', ['Yes', 'No']).then(function (buttonIndex) {
+      var btnIndex = buttonIndex;
+      if (btnIndex === 1) {
+        $state.go('login');
+      }
+    });
   }
 })
