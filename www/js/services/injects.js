@@ -15,6 +15,7 @@ angular.module('service.injects', [
   'services.loading',
   'service.overview',
   'service.addons',
+  'service.touchId',
   
   // Resource
   'resource.config',
