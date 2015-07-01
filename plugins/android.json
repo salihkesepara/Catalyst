@@ -45,6 +45,9 @@
         "com.ionic.keyboard": {
             "PACKAGE_NAME": "com.ionicframework.catalyst"
         },
+        "cordova-plugin-touchid": {
+            "PACKAGE_NAME": "com.ionicframework.catalyst"
+        },
         "cordova-plugin-whitelist": {
             "PACKAGE_NAME": "com.ionicframework.catalyst"
         },

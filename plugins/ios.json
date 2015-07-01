@@ -17,6 +17,10 @@
                             "count": 1
                         },
                         {
+                            "xml": "<feature name=\"SQLitePlugin\"><param name=\"ios-package\" value=\"SQLitePlugin\" /></feature>",
+                            "count": 1
+                        },
+                        {
                             "xml": "<feature name=\"YoikScreenOrientation\"><param name=\"ios-package\" value=\"YoikScreenOrientation\" /></feature>",
                             "count": 1
                         },
@@ -79,6 +83,9 @@
             "PACKAGE_NAME": "com.ionicframework.catalyst"
         },
         "cordova-plugin-whitelist": {
+            "PACKAGE_NAME": "com.ionicframework.catalyst"
+        },
+        "io.litehelpers.cordova.sqlite": {
             "PACKAGE_NAME": "com.ionicframework.catalyst"
         },
         "net.yoik.cordova.plugins.screenorientation": {
