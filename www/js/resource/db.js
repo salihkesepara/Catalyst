@@ -11,8 +11,8 @@ angular.module('resource.db', [])
       console.log(err);
       return err;
     });
-  }
-  
+  };
+
   /**
   * @function getBy
   * @param {string} table Tablo adı
@@ -34,8 +34,8 @@ angular.module('resource.db', [])
       console.log(err);
       return err;
     });
-  }
-  
+  };
+
   self.getByOrderDesc = function (table, prop, value) {
     var query = 'SELECT * FROM ' + table + ' WHERE ' + prop + ' = ? order by rowid desc',
       params = [value];
@@ -45,7 +45,7 @@ angular.module('resource.db', [])
       console.log(err);
       return err;
     });
-  }
+  };
 
   /**
   * @function getById
@@ -67,7 +67,7 @@ angular.module('resource.db', [])
       console.log(err);
       return err;
     });
-  }
+  };
 
   self.save = function (table, fields, values) {
     var query = 'INSERT INTO ' + table + ' (' + fields.join(',') + ') values(' + init.questionmark(values.length) + ')',
@@ -78,7 +78,7 @@ angular.module('resource.db', [])
       console.log(err);
       return err;
     });
-  }
+  };
 
   self.remove = function (table) {
     var query = 'DELETE FROM ' + table + '';
@@ -88,7 +88,7 @@ angular.module('resource.db', [])
       console.log(err);
       return err;
     });
-  }
+  };
 
   self.removeBy = function (table, prop, value) {
     var query = 'DELETE FROM ' + table + ' WHERE ' + prop + ' = ?',
@@ -110,8 +110,8 @@ angular.module('resource.db', [])
       console.log(err);
       return err;
     });
-  }
-  
+  };
+
   self.update = function (table, field, data) {
     var query = 'UPDATE ' + table + ' SET ' + init.generateUpdateQuery(field, data).join(',') + '';
     return init.query(query).then(function (result) {
@@ -120,8 +120,8 @@ angular.module('resource.db', [])
       console.log(err);
       return err;
     });
-  }
-  
+  };
+
   self.updateBy = function (table, field, data, prop, value) {
     var query = 'UPDATE ' + table + ' SET ' + init.generateUpdateQuery(field, data) +' where ' + prop + ' = ?',
         params = [value];
@@ -131,8 +131,8 @@ angular.module('resource.db', [])
       console.log(err);
       return err;
     });
-  }
-  
+  };
+
   self.updateById = function (table, field, data, id) {
     var query = 'UPDATE ' + table + ' SET ' + init.generateUpdateQuery(field, data).join(',') + ' where id = ?',
         params = [id];
@@ -142,19 +142,19 @@ angular.module('resource.db', [])
       console.log(err);
       return err;
     });
-  }
-  
+  };
+
   self.UUID = function () {
     return init.UUID();
   };
-  
+
   self.init = function () {
     return init.db().then(function (result) {
       return result;
     }, function (err) {
       return err;
     });
-  }
+  };
 
   return self;
 });

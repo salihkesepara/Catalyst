@@ -11,17 +11,17 @@ angular.module('remote.config', [])
       getUserUsage: '',
       getUserUsageAll: ''
     }
-  }
+  };
 
   self.getUserUsage = {
     method: self.data.post,
     url: self.data.url.getUserUsage
-  }
-  
+  };
+
   self.getUserUsageAll = {
     method: self.data.post,
     url: self.data.url.getUserUsageAll
-  }
+  };
 
   return self;
-}])
+}]);

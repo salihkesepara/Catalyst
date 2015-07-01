@@ -24,7 +24,7 @@ angular.module('request.getUserUsage', [])
     }
 
     return http.run(config.getUserUsage).then(parserCallBack);
-  }
+  };
 
   return self;
-}])
+}]);

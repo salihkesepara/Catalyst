@@ -11,7 +11,7 @@ angular.module('module.overview', [])
           controller: 'OverviewCtrl'
         }
       }
-    })
+    });
 })
 
 
@@ -36,5 +36,5 @@ angular.module('module.overview', [])
         $state.go('login');
       }
     });
-  }
-})
+  };
+});

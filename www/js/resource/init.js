@@ -13,7 +13,7 @@ angular.module('resource.init', [])
     } else {
       self.db = openDatabase(database.name, '1.0', 'websql deneme', 2 * 1024 * 1024);
     }
-  }
+  };
 
   self.db = function () {
     var deferred = $q.defer();
@@ -31,7 +31,7 @@ angular.module('resource.init', [])
     });
 
     return deferred.promise;
-  }
+  };
 
   function createTables() {
     var deferred = $q.defer();
@@ -47,7 +47,7 @@ angular.module('resource.init', [])
     self.query(query).then(function (result) {
       database.tables.splice(0, 1);
 
-      if (database.tables.length != 0) {
+      if (database.tables.length !==0) {
         deferred.resolve(createTables());
       } else {
         deferred.resolve("Tables Complate!");
@@ -66,8 +66,8 @@ angular.module('resource.init', [])
 
     var query = 'SELECT * FROM config';
     self.query(query).then(function (result) {
-      var result = self.fetch(result);
-      if (result.length == 0) {
+       result = self.fetch(result);
+      if (result.length ===0) {
         // DB First Run
         query = 'INSERT INTO config (key, value) VALUES ("DB Version", "0")';
         self.query(query).then(function (result) {
@@ -91,12 +91,12 @@ angular.module('resource.init', [])
     });
 
     return deferred.promise;
-  }
+  };
 
   checkMigration = function (dbVersion) {
     var deferred = $q.defer();
 
-    if (migration.length == 0) deferred.resolve("Migration not exists!");
+    if (migration.length === 0) deferred.resolve("Migration not exists!");
     var dbMigration = migration.length;
     if (dbVersion != dbMigration) {
       console.log("dbVersion: ", dbVersion);
@@ -111,12 +111,12 @@ angular.module('resource.init', [])
     }
 
     return deferred.promise;
-  }
+  };
 
   runMigration = function (dbVersion, dbMigration) {
     var deferred = $q.defer();
 
-    if (migration.length != 0) {
+    if (migration.length !== 0) {
       db = migration[0];
       if (db.migration > dbVersion) {
         console.log("------------");
@@ -143,7 +143,7 @@ angular.module('resource.init', [])
     }
 
     return deferred.promise;
-  }
+  };
 
   tableForEach = function () {
     var deferred = $q.defer();
@@ -164,7 +164,7 @@ angular.module('resource.init', [])
           deferred.resolve(tableForEach());
         }, function (err) {
           deferred.reject(err);
-        })
+        });
       }, function (err) {
         console.log(err);
         deferred.reject(err);
@@ -175,7 +175,7 @@ angular.module('resource.init', [])
     }
 
     return deferred.promise;
-  }
+  };
 
   columnForEach = function () {
     var deferred = $q.defer();
@@ -204,7 +204,7 @@ angular.module('resource.init', [])
     }
 
     return deferred.promise;
-  }
+  };
 
   self.query = function (query, params) {
     params = typeof params !== 'undefined' ? params : [];
@@ -218,7 +218,7 @@ angular.module('resource.init', [])
     });
 
     return deferred.promise;
-  }
+  };
 
   self.fetch = function (result) {
     var output = [];
@@ -233,7 +233,7 @@ angular.module('resource.init', [])
     for (var i = 0; i < l; i++)
       marks.push("?");
     return marks.join(",");
-  }
+  };
 
   self.generateUpdateQuery = function (field, data) {
     var updateQuery = [];
@@ -245,7 +245,7 @@ angular.module('resource.init', [])
       updateQuery.push('' + field + '="' + data + '"');
     }
     return updateQuery;
-  }
+  };
 
   self.UUID = function () {
     var d = new Date().getTime();
@@ -258,4 +258,4 @@ angular.module('resource.init', [])
   };
 
   return self;
-})
+});

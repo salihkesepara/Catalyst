@@ -11,7 +11,7 @@ angular.module('module.profile', [])
           controller: 'ProfileCtrl'
         }
       }
-    })
+    });
 })
 
 .controller('ProfileCtrl', function ($scope, $cordovaDialogs, $state, $ionicModal, addons, db) {
@@ -66,7 +66,7 @@ angular.module('module.profile', [])
     $scope.addonsData.forEach(function (item) {
       if (item.isChecked) item.isChecked = false;
     });
-    
+
     $scope.addonsData.forEach(function (item) {
       if (item.name == $scope.addons.checked) item.isChecked = true;
     });

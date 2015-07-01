@@ -25,6 +25,7 @@ angular.module('app', ['service.injects', 'ngCordova'])
     if (window.cordova && window.cordova.plugins && window.cordova.plugins.Keyboard) {
       cordova.plugins.Keyboard.hideKeyboardAccessoryBar(true);
       screen.lockOrientation('portrait-primary');
+    
     }
     if (window.StatusBar) {
       StatusBar.styleLightContent();
