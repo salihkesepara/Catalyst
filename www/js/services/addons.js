@@ -7,38 +7,46 @@ angular.module('service.addons', [])
       return $q(function (resolve, reject) {
         var addons = [
           {
-            name: 'Premium Voice Package',
+            name: '1 GB Internet',
             isChecked: true
           },
           {
-            name: 'Premium SMS Package',
+            name: '3 GB Internet',
             isChecked: false
           },
           {
-            name: 'Premium Data Package',
+            name: '5 GB Internet',
             isChecked: false
           },
           {
-            name: 'Travel Package',
+            name: 'GECE 5 GB**',
             isChecked: false
           },
           {
-            name: 'Holiday Package',
+            name: 'Avea Smartband',
             isChecked: false
           },
           {
-            name: 'Weekend Data Package',
+            name: 'Samsung Galaxy Gear S',
             isChecked: false
           },
           {
-            name: 'Weekend SMS Package',
+            name: 'Samsung Galaxy Gear Fit',
             isChecked: false
           },
           {
-            name: 'Weekend Voice Package',
+            name: 'Jam Classic Hoparlör',
             isChecked: false
           },
-      ];
+          {
+            name: 'Avea inTouch 4',
+            isChecked: false
+          },
+          {
+            name: 'iPad Mini Retina 16 GB',
+            isChecked: false
+          },
+        ];
 
         db.remove('AddOns').then(function () {
           db.save('AddOns', ['id', 'data'], [db.UUID(), JSON.stringify(addons)]).then(function (success) {
@@ -49,12 +57,12 @@ angular.module('service.addons', [])
         });
       });
     }
-    
-    self.get = function() {
-      return $q(function(resolve, reject) {
-        db.get('AddOns').then(function(result) {
+
+    self.get = function () {
+      return $q(function (resolve, reject) {
+        db.get('AddOns').then(function (result) {
           resolve(JSON.parse(result[0].data));
-        }, function(err) {
+        }, function (err) {
           reject(err);
         });
       });

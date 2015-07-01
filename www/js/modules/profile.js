@@ -16,7 +16,8 @@ angular.module('module.profile', [])
 
 .controller('ProfileCtrl', function ($scope, $cordovaDialogs, $state, $ionicModal, addons, db) {
   $scope.addons = {
-    checked: ''
+    checked: '',
+    checkedOld: ''
   };
 
   $scope.logOut = function () {
@@ -39,13 +40,9 @@ angular.module('module.profile', [])
     $scope.modalAddons.show();
   };
 
-  $scope.onDoneAddons = function () {
-    console.log('onDone');
-    $scope.modalAddons.hide();
-  }
-
   $scope.onCancelAddons = function () {
-    console.log('onCancel');
+    console.log('onCancelAddons');
+    $scope.addons.checked = $scope.addons.checkedOld;
     $scope.modalAddons.hide();
   }
 
@@ -60,13 +57,8 @@ angular.module('module.profile', [])
     $scope.modalCurrentPage.show();
   };
 
-  $scope.onDoneCurrentPage = function () {
-    console.log('onDone');
-    $scope.modalCurrentPage.hide();
-  }
-
   $scope.onCancelCurrentPage = function () {
-    console.log('onCancel');
+    console.log('onCancelCurrentPage');
     $scope.modalCurrentPage.hide();
   }
 
@@ -93,6 +85,7 @@ angular.module('module.profile', [])
     result.forEach(function (item) {
       if (item.isChecked) {
         $scope.addons.checked = item.name;
+        $scope.addons.checkedOld = item.name;
         return;
       }
     });
