@@ -10,46 +10,46 @@ angular.module('module.login', [])
     });
 })
 
-.controller('LoginCtrl', ['$scope', 'loading', '$state', 'getUserUsage', 'getUserUsageAll', '$cordovaDialogs', '$rootScope', 'db', 'addons','$cordovaTouchID' ,function ($scope, loading, $state, getUserUsage, getUserUsageAll, $cordovaDialogs, $rootScope, db, addons,$cordovaTouchID) {
-  $scope.showFingerPrintImage=false;
+.controller('LoginCtrl', ['$scope', 'loading', '$state', 'getUserUsage', 'getUserUsageAll', '$cordovaDialogs', '$rootScope', 'db', 'addons', '$cordovaTouchID', function ($scope, loading, $state, getUserUsage, getUserUsageAll, $cordovaDialogs, $rootScope, db, addons, $cordovaTouchID) {
+  $scope.showFingerPrintImage = false;
 
 
   $scope.login = {
-     id: ''
-   };
+    id: ''
+  };
   document.addEventListener("deviceready", function () {
-    $cordovaTouchID.checkSupport().then(function() {
-     // success, TouchID supported
-     $scope.showFingerPrintImage=true;
-     //alert("supported");
+    $cordovaTouchID.checkSupport().then(function () {
+      // success, TouchID supported
+      $scope.showFingerPrintImage = true;
+      //alert("supported");
 
     }, function (error) {
-       $scope.showFingerPrintImage=false;
-    // alert(error); // TouchID not supported
+      $scope.showFingerPrintImage = false;
+      // alert(error); // TouchID not supported
     });
-    $cordovaTouchID.authenticate("To login, please scan your saved fingerprint").then(function() {
-    // success
+    $cordovaTouchID.authenticate("To login, please scan your saved fingerprint").then(function () {
+      // success
 
-    $scope.login.id=1024;
-    $scope.goHome();
-    userloginCount++;
-  }, function () {
-    console.log("Not logged");
-  });
+      $scope.login.id = 1024;
+      $scope.goHome();
+      userloginCount++;
+    }, function () {
+      console.log("Not logged");
+    });
 
-}, false);
-
-$scope.authenticateTouch=function(){
-document.addEventListener("deviceready", function () {
-  $cordovaTouchID.authenticate("To login, please scan your saved fingerprint").then(function() {
-  // success
-  $scope.login.id=1024;
-  $scope.goHome();
-}, function () {
-  console.log("Not logged");
-});
   }, false);
-};
+
+  $scope.authenticateTouch = function () {
+    document.addEventListener("deviceready", function () {
+      $cordovaTouchID.authenticate("To login, please scan your saved fingerprint").then(function () {
+        // success
+        $scope.login.id = 1024;
+        $scope.goHome();
+      }, function () {
+        console.log("Not logged");
+      });
+    }, false);
+  };
 
 
   $scope.goHome = function () {
@@ -62,7 +62,7 @@ document.addEventListener("deviceready", function () {
     var isUsageOk = false,
       isUsageAllOk = false;
 
-    addons.save().then(function(result) {
+    addons.save().then(function (result) {
       console.log(result);
     });
 
@@ -73,7 +73,7 @@ document.addEventListener("deviceready", function () {
       loading.stop();
       console.log(err);
       db.get('userUsage').then(function (result) {
-        if (result.length !==0) {
+        if (result.length !== 0) {
           userUsageOK(JSON.parse(result[0].data));
         } else {
           $cordovaDialogs.alert('Check your network!', 'Alert', 'OK');
