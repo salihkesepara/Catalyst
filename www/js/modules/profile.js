@@ -19,15 +19,6 @@ angular.module('module.profile', [])
     checked: '',
   };
 
-  $scope.logOut = function () {
-    $cordovaDialogs.confirm('Are you sure you want to exit?', 'Confirm', ['Yes', 'No']).then(function (buttonIndex) {
-      var btnIndex = buttonIndex;
-      if (btnIndex === 1) {
-        $state.go('login');
-      }
-    });
-  };
-
   $ionicModal.fromTemplateUrl('addons-modal.html', {
     scope: $scope,
     animation: 'slide-in-up'

@@ -37,13 +37,4 @@ angular.module('module.details', [])
     $('#containerSms').highcharts(detail.sms(data));
     $('#containerArama').highcharts(detail.arama(data));
   };
-
-  $scope.logOut = function () {
-    $cordovaDialogs.confirm('Are you sure you want to exit?', 'Confirm', ['Yes', 'No']).then(function (buttonIndex) {
-      var btnIndex = buttonIndex;
-      if (btnIndex === 1) {
-        $state.go('login');
-      }
-    });
-  }
 })
