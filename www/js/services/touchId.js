@@ -16,12 +16,17 @@ angular.module('service.touchId', [])
   self.check = function () {
     return $q(function (resolve, reject) {
       document.addEventListener('deviceready', function () {
-        $cordovaTouchID.checkSupport().then(function () {
-          console.log('Touch ID is Active!');
-          resolve(true);
-        }, function (err) {
+        console.log('device.platform: ', device.platform);
+        if (device.platform == 'iOS') {
+          $cordovaTouchID.checkSupport().then(function () {
+            console.log('Touch ID is Active!');
+            resolve(true);
+          }, function (err) {
+            reject('Touch ID is not Active!');
+          });
+        } else {
           reject('Touch ID is not Active!');
-        });
+        }
       }, false);
     });
   }

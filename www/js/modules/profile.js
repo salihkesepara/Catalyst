@@ -35,7 +35,7 @@ angular.module('module.profile', [])
     $scope.modalAddons.hide();
   }
 
-  $ionicModal.fromTemplateUrl('current-page-modal.html', {
+  $ionicModal.fromTemplateUrl('current-package-modal.html', {
     scope: $scope,
     animation: 'slide-in-up'
   }).then(function (modalCurrentPage) {
@@ -46,8 +46,8 @@ angular.module('module.profile', [])
     $scope.modalCurrentPage.show();
   };
 
-  $scope.onCancelCurrentPage = function () {
-    console.log('onCancelCurrentPage');
+  $scope.onCancelCurrentPackAge = function () {
+    console.log('onCancelCurrentPackAge');
     $scope.modalCurrentPage.hide();
   }
 
