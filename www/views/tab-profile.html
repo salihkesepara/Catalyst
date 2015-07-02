@@ -6,24 +6,31 @@
     <button class="button-clear icon-right ion-android-exit exit-button" on-touch="logOut()"></button>
   </ion-nav-buttons>
   <ion-content class="back-img">
+    
     <div class="card">
       <div class="item item-text-wrap phone-number">
+        <div class="item-icon-left"><i class="icon ion-ios-telephone"></i></div>
         +90 541 659 75 80
       </div>
     </div>
 
     <div class="list card">
       <div class="item item-divider">Current Package</div>
-      <a href="#" class="item item-icon-right" on-touch="openModalCurrentPage()">
-        GSM Premium Package
+      <a href="#" class="item item-thumbnail-left item-icon-right" on-tap="openModalCurrentPage()">
+        <img src="img/gb1.jpg">
+        <h2>Gönlü Bol Kampanya</h2>
+        <p>Türk Telekom ve TTNET müşterileri</p>
+        <!--        {{addons.checked}}-->
         <i class="icon ion-ios-arrow-forward"></i>
       </a>
     </div>
 
     <div class="list card">
       <div class="item item-divider">Current Addons</div>
-      <a href="#" class="item item-icon-right" on-touch="openModalAddons()">
-        {{addons.checked}}
+      <a href="#" class="item item-thumbnail-left item-icon-right" on-tap="openModalAddons()">
+        <img src="img/{{currentAddonsData.img}}">
+        <h2>{{currentAddonsData.name}}</h2>
+        <p>{{currentAddonsData.description}}</p>
         <i class="icon ion-ios-arrow-forward"></i>
       </a>
     </div>

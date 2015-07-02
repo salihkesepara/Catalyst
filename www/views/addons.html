@@ -6,17 +6,14 @@
   </ion-header-bar>
   <ion-content>
     
-    <div class="list">
-      <ion-radio ng-repeat="item in addonsData" ng-value="item.name" ng-model="addons.checked">
-        {{item.name}}
-      </ion-radio>
-    </div>
-
-    <div class="buy-button">
-      <button class="button button-block button-positive" on-touch="buyNow()">
-        Buy Now
-      </button>
-    </div>
+    <ion-list>
+      <ion-item class="item-thumbnail-left" ng-repeat="item in addonsData">
+        <img src="img/{{item.img}}">
+        <h2>{{item.name}}</h2>
+        <p>{{item.description}}</p>
+        <button class="button button-clear addons-button" ng-class="item.isChecked ? 'button-balanced': 'button-positive'" on-tap="buyNow($index)">{{!item.isChecked ? 'Buy' : 'Active'}}</button>
+      </ion-item>
+    </ion-list>
 
   </ion-content>
 </ion-view>

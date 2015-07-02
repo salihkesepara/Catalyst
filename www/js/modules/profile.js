@@ -17,7 +17,6 @@ angular.module('module.profile', [])
 .controller('ProfileCtrl', function ($scope, $cordovaDialogs, $state, $ionicModal, addons, db) {
   $scope.addons = {
     checked: '',
-    checkedOld: ''
   };
 
   $scope.logOut = function () {
@@ -42,7 +41,6 @@ angular.module('module.profile', [])
 
   $scope.onCancelAddons = function () {
     console.log('onCancelAddons');
-    $scope.addons.checked = $scope.addons.checkedOld;
     $scope.modalAddons.hide();
   }
 
@@ -62,15 +60,12 @@ angular.module('module.profile', [])
     $scope.modalCurrentPage.hide();
   }
 
-  $scope.buyNow = function () {
-    $scope.addonsData.forEach(function (item) {
+  $scope.buyNow = function (index) {
+    $scope.addonsData.forEach(function(item) {
       if (item.isChecked) item.isChecked = false;
     });
-
-    $scope.addonsData.forEach(function (item) {
-      if (item.name == $scope.addons.checked) item.isChecked = true;
-    });
-
+    $scope.addonsData[index].isChecked = true;
+    $scope.currentAddonsData = $scope.addonsData[index];
     db.update('AddOns', ['data'], [JSON.stringify($scope.addonsData)]).then(function (result) {
       $cordovaDialogs.alert('Your SMS package is now activated', 'Alert', 'OK');
       $scope.modalAddons.hide();
@@ -82,11 +77,9 @@ angular.module('module.profile', [])
 
   addons.get().then(function (result) {
     $scope.addonsData = result;
-    result.forEach(function (item) {
+    $scope.addonsData.forEach(function(item) {
       if (item.isChecked) {
-        $scope.addons.checked = item.name;
-        $scope.addons.checkedOld = item.name;
-        return;
+        $scope.currentAddonsData = item;
       }
     });
   });

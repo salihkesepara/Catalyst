@@ -7,45 +7,29 @@ angular.module('service.addons', [])
       return $q(function (resolve, reject) {
         var addons = [
           {
-            name: '1 GB Internet',
+            name: '1GB İnternet',
+            description: 'Kaçmaz İkili Paketi ile hem dilediğince',
+            img: '1gb.jpg',
             isChecked: true
           },
           {
-            name: '3 GB Internet',
+            name: '2GB İnternet',
+            description: 'Turkcell de bir ilk! Bol bol internete',
+            img: '2gb.jpg',
             isChecked: false
           },
           {
-            name: '5 GB Internet',
+            name: '4GB İnternet',
+            description: 'Platinum Paket Mevcut Müşteri Yıllık',
+            img: '4gb.jpg',
             isChecked: false
           },
           {
             name: 'GECE 5 GB**',
+            description: 'test',
+            img: '2gb.jpg',
             isChecked: false
-          },
-          {
-            name: 'Avea Smartband',
-            isChecked: false
-          },
-          {
-            name: 'Samsung Galaxy Gear S',
-            isChecked: false
-          },
-          {
-            name: 'Samsung Galaxy Gear Fit',
-            isChecked: false
-          },
-          {
-            name: 'Jam Classic Hoparlör',
-            isChecked: false
-          },
-          {
-            name: 'Avea inTouch 4',
-            isChecked: false
-          },
-          {
-            name: 'iPad Mini Retina 16 GB',
-            isChecked: false
-          },
+          }
         ];
 
         db.remove('AddOns').then(function () {
@@ -61,6 +45,7 @@ angular.module('service.addons', [])
     self.get = function () {
       return $q(function (resolve, reject) {
         db.get('AddOns').then(function (result) {
+          console.log(JSON.parse(result[0].data));
           resolve(JSON.parse(result[0].data));
         }, function (err) {
           reject(err);
