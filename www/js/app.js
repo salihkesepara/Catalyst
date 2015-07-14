@@ -39,11 +39,3 @@ angular.module('app', ['service.injects', 'ngCordova'])
     });
   });
 })
-
-.config(function ($stateProvider, $urlRouterProvider, $ionicConfigProvider) {
-  $ionicConfigProvider.backButton.text('').previousTitleText(false);
-  if (!ionic.Platform.isIOS()) {
-    $ionicConfigProvider.scrolling.jsScrolling(false);
-  }
-  $urlRouterProvider.otherwise("/login");
-});

@@ -1,15 +1,5 @@
 angular.module('module.login', [])
 
-.config(function ($stateProvider, $urlRouterProvider) {
-  $stateProvider
-    .state('login', {
-      url: '/login',
-      cache: false,
-      templateUrl: 'views/login.html',
-      controller: 'LoginCtrl'
-    });
-})
-
 .controller('LoginCtrl', ['$scope', 'loading', '$state', 'getUserUsage', 'getUserUsageAll', '$cordovaDialogs', '$rootScope', 'db', 'addons', 'touchId', '$ionicHistory', function ($scope, loading, $state, getUserUsage, getUserUsageAll, $cordovaDialogs, $rootScope, db, addons, touchId, $ionicHistory) {
   $scope.showFingerPrintImage = false;
 

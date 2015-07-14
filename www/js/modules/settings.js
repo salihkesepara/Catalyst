@@ -1,20 +1,5 @@
 angular.module('module.settings', [])
 
-.config(function ($stateProvider, $urlRouterProvider) {
-  $stateProvider
-    .state('tab.settings', {
-      url: '/settings',
-      cache: false,
-      views: {
-        'tab-settings': {
-          templateUrl: 'views/tab-settings.html',
-          controller: 'SettingsCtrl'
-        }
-      }
-    })
-})
-
-
 .controller('SettingsCtrl', function ($scope, $stateParams, $rootScope, db, $state, $cordovaDialogs) {
   if (typeof $rootScope.userUsage === 'undefined') {
     db.get('userUsage').then(function (result) {

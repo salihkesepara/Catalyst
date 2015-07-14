@@ -1,19 +1,5 @@
 angular.module('module.profile', [])
 
-.config(function ($stateProvider, $urlRouterProvider) {
-  $stateProvider
-    .state('tab.profile', {
-      url: '/profile',
-      cache: false,
-      views: {
-        'tab-profile': {
-          templateUrl: 'views/tab-profile.html',
-          controller: 'ProfileCtrl'
-        }
-      }
-    });
-})
-
 .controller('ProfileCtrl', function ($scope, $cordovaDialogs, $state, $ionicModal, addons, db) {
   $scope.addons = {
     checked: '',

@@ -11,11 +11,11 @@ angular.module('service.injects', [
   
   // Service
   'service.detail',
-  'service.injects',
   'services.loading',
   'service.overview',
   'service.addons',
   'service.touchId',
+  'service.nav',
   
   // Resource
   'resource.config',

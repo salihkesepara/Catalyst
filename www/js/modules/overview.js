@@ -1,20 +1,5 @@
 angular.module('module.overview', [])
 
-.config(function ($stateProvider, $urlRouterProvider) {
-  $stateProvider
-    .state('tab.overview', {
-      url: '/overview',
-      cache: false,
-      views: {
-        'tab-overview': {
-          templateUrl: 'views/tab-overview.html',
-          controller: 'OverviewCtrl'
-        }
-      }
-    });
-})
-
-
 .controller('OverviewCtrl', function ($scope, $rootScope, overview, $state, db, $timeout, loading, $cordovaDialogs) {
   loading.start();
   $timeout(function ()  {
