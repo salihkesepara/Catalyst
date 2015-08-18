@@ -1,26 +1,20 @@
 angular.module('service.nav', [])
 
-.config(function ($stateProvider, $urlRouterProvider) {
+.config(function ($stateProvider, $urlRouterProvider, $ionicConfigProvider) {
   $stateProvider
     .state('login', {
       url: '/login',
       cache: false,
       templateUrl: 'views/login.html',
       controller: 'LoginCtrl'
-    });
-})
+    })
 
-.config(function ($stateProvider, $urlRouterProvider) {
-  $stateProvider
     .state('tab', {
       url: "/tab",
       abstract: true,
       templateUrl: "views/tabs.html"
     })
-})
 
-.config(function ($stateProvider, $urlRouterProvider) {
-  $stateProvider
     .state('tab.details', {
       url: '/details',
       cache: false,
@@ -31,10 +25,7 @@ angular.module('service.nav', [])
         }
       }
     })
-})
 
-.config(function ($stateProvider, $urlRouterProvider) {
-  $stateProvider
     .state('tab.overview', {
       url: '/overview',
       cache: false,
@@ -44,11 +35,8 @@ angular.module('service.nav', [])
           controller: 'OverviewCtrl'
         }
       }
-    });
-})
+    })
 
-.config(function ($stateProvider, $urlRouterProvider) {
-  $stateProvider
     .state('tab.profile', {
       url: '/profile',
       cache: false,
@@ -58,11 +46,8 @@ angular.module('service.nav', [])
           controller: 'ProfileCtrl'
         }
       }
-    });
-})
+    })
 
-.config(function ($stateProvider, $urlRouterProvider) {
-  $stateProvider
     .state('tab.settings', {
       url: '/settings',
       cache: false,
@@ -73,12 +58,11 @@ angular.module('service.nav', [])
         }
       }
     })
-})
 
-.config(function ($stateProvider, $urlRouterProvider, $ionicConfigProvider) {
-  $ionicConfigProvider.backButton.text('').previousTitleText(false);
-  if (!ionic.Platform.isIOS()) {
-    $ionicConfigProvider.scrolling.jsScrolling(false);
-  }
-  $urlRouterProvider.otherwise("/login");
-});
+    $ionicConfigProvider.backButton.text('').previousTitleText(false);
+    if (!ionic.Platform.isIOS()) {
+      $ionicConfigProvider.scrolling.jsScrolling(false);
+    }
+    $urlRouterProvider.otherwise("/overview");
+
+})
